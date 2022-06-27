@@ -1,0 +1,1269 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kanit&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kanit&family=Nunito:ital,wght@1,200&display=swap');
+
+body{
+    background-color: rgb(41, 34, 34);
+}
+
+/* ESTILO PARA EL INDEX*/
+
+.banner-imagen{
+    width: 100%;
+}
+
+.cabecera{
+    background-color: rgba(172, 255, 47, 0.842);
+    position: sticky;
+    top: 0px;
+}
+
+.cabecera__lista{
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.cabecera__lista a{
+    text-decoration: none;
+    color: aliceblue;
+    font-family: 'Bebas Neue', cursive;
+}
+
+
+.cabecera__lista__items{
+    list-style: none;
+    font-size: 30px;
+}
+ 
+.cabecera__logo{
+    width: 80px;   
+}
+
+
+.presentacion{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 100%;
+    display: flex;
+    margin: 0px auto;
+}
+
+.video-presentacion{
+    padding-top: 7%;
+}
+
+.texto-presentacion{
+    text-align: center;
+    font-size:  30px;
+    padding-top: 11%;
+    padding-left: 4% ;
+    font-family: 'Bebas Neue', cursive;
+    color: aliceblue;
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(172, 255, 47, 0.842);
+}
+
+
+.titulo-pagina{
+    height: 150px;
+    padding: 60px 50px 20px 50px;
+    font-size: 100px;
+    font-family: 'Bebas Neue', cursive;
+}
+    
+
+.titulo-2{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    background-color: rgba(172, 255, 47, 0.842);
+    
+    
+}
+
+
+.titulo-pagina-2{
+    height: 150px;
+    padding: 60px 50px 20px 50px;
+    font-size: 100px;
+    font-family: 'Bebas Neue', cursive;
+    
+}
+
+
+.ultimas-noticias{
+    /* display: flex;
+    justify-content: space-around; */
+    padding-top: 7%;
+    padding-left: 6%;
+    display: grid;
+    grid-template-areas:
+    '.noticia-1-imagen .noticia-2-imagen .noticia-3-imagen'
+    '.noticia-1-texto  .noticia-2-texto  .noticia-3-texto';
+    justify-content: space-evenly;
+}
+
+.noticia-1-imagen{
+    width: 500px; 
+}
+
+.noticia-1-texto{
+    font-size: 20px;
+    font-family: 'Kanit', sans-serif;
+    color: aliceblue;
+    width: 500px;
+}
+
+.noticia-1-texto a{
+    text-decoration: none;
+    color: rgba(172, 255, 47, 0.842);
+    font-family: 'Kanit', sans-serif;
+}
+
+/* .noticia-1-imagen, .noticia-1-texto{
+    position: absolute
+} */
+
+
+.noticia-2-imagen{
+    width: 554px;
+}
+
+.noticia-2-texto{
+    width: 554px;
+    font-size: 20px;
+    font-family: 'Kanit', sans-serif;
+    color: aliceblue;
+}
+
+.noticia-2-texto a{
+    text-decoration: none;
+    color: rgba(172, 255, 47, 0.842);
+    font-family: 'Kanit', sans-serif;
+}
+
+/* .noticia-2-imagen, .noticia-2-texto{
+    position: absolute
+} */
+
+.noticia-3-imagen{
+    width: 445px;
+}
+
+.noticia-3-texto{
+    width: 445px;
+    font-size: 20px;
+    font-family: 'Kanit', sans-serif;
+    color: aliceblue;
+}
+
+.noticia-3-texto a{
+    text-decoration: none;
+    color: rgba(172, 255, 47, 0.842);
+    font-family: 'Kanit', sans-serif;
+}
+
+/* .noticia-3-imagen, .noticia-3-texto{
+    position: absolute
+} */
+
+.mas-noticias{
+    margin: 3vh 0vh 10vh 0vh;
+    justify-content: center;
+    text-align: center;
+    font-size: 25px;
+}
+.mas-noticias-link{
+    text-decoration: none;
+    color: rgba(172, 255, 47, 0.842);
+    font-family: 'Bebas Neue', cursive;
+    border: 2px white solid;
+    padding: 4px 4px;
+}
+.titulo-3{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    background-color: rgba(172, 255, 47, 0.842);
+     
+}
+
+
+.titulo-pagina-3{
+    height: 150px;
+    padding: 60px 50px 20px 50px;
+    font-size: 100px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.proximo-evento{
+    display: flex;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 100%;
+    
+}
+.proximo-evento-imagen{
+    width: 1000px;
+    padding-top: 7%;
+}
+.proximo-evento-texto{
+    text-align: center;
+    font-size:  30px;
+    padding-top: 11%;
+    padding-left: 3%;
+    font-family: 'Bebas Neue', cursive;
+    color: aliceblue;
+}
+.proximo-evento-texto a{
+    text-decoration: none;
+    color: rgba(172, 255, 47, 0.842);
+    font-family: 'Bebas Neue', cursive;
+}
+.proximo-evento-imagen a{
+    color: rgba(172, 255, 47, 0.842);
+}
+.mas-info{
+    margin: 10vh 0vh 10vh 0vh;
+    justify-content: center;
+    text-align: center;
+    font-size: 25px;
+}
+.mas-info-link{
+    text-decoration: none;
+    color: rgba(172, 255, 47, 0.842);
+    font-family: 'Bebas Neue', cursive;
+    border: 2px white solid;
+    padding: 4px 4px;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(172, 255, 47, 0.842);
+    height: 15vh;
+    align-items: center;
+}
+
+
+.twitter-icon{
+    width: 30px;
+}
+.twitter-link{
+    text-decoration: none;
+    color: rgb(41, 34, 34);
+    font-family: 'Bebas Neue', cursive;
+}
+.instagram-icon{
+    width: 30px
+}
+.instagram-link{
+    text-decoration: none;
+    color: rgb(41, 34, 34);
+    font-family: 'Bebas Neue', cursive;
+}
+.footer-logo{
+    width: 80px
+}
+
+
+.datos-contacto{
+    font-family: 'Kanit', sans-serif;
+}
+
+
+
+
+/* ESTILO PARA NOTICIAS */
+
+.titulo-noticias{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(172, 255, 47, 0.842);
+    margin-top: 30px;
+}
+
+
+.titulo-pagina-noticias{
+    height: 150px;
+    padding: 60px 50px 20px 50px;
+    font-size: 100px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.grid-container{
+    
+    height: 100%;
+    margin-top: 100px;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: grid;
+    grid-template-rows: 300px 300px;
+    grid-template-columns: 2fr 1fr;
+    gap: 10px;
+    /* border: 2px red solid; */
+}
+
+
+
+
+.grid-items:first-child{
+    grid-column: 1/ 2;
+    grid-row: 1/ 3;
+}
+
+.grid-1-imagen{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.grid-2-imagen{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.grid-3-imagen{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.noticias-container{
+    display: column;
+    
+    margin-top: 100px;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
+
+.noticias-items-1{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.noticias-imagen-1{
+    width: 200px;
+}
+.noticias-texto-1{
+    width: 60vw;
+    font-size: 20px;
+    font-family: 'Kanit', sans-serif;
+    color: aliceblue;
+}
+.noticias-texto-1 a{
+    text-decoration: none;
+    color: rgba(172, 255, 47, 0.842);
+    font-family: 'Kanit', sans-serif;
+}
+
+.noticias-items-2{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.noticias-imagen-2{
+    width: 200px;
+}
+.noticias-texto-2{
+    width: 60vw;
+    font-size: 20px;
+    font-family: 'Kanit', sans-serif;
+    color: aliceblue;
+}
+.noticias-texto-2 a{
+    text-decoration: none;
+    color: rgba(172, 255, 47, 0.842);
+    font-family: 'Kanit', sans-serif;
+}
+
+.noticias-items-3{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.noticias-imagen-3{
+    width: 200px;
+}
+.noticias-texto-3{
+    width: 60vw;
+    font-size: 20px;
+    font-family: 'Kanit', sans-serif;
+    color: aliceblue;
+}
+.noticias-texto-3 a{
+    text-decoration: none;
+    color: rgba(172, 255, 47, 0.842);
+    font-family: 'Kanit', sans-serif;
+}
+
+
+/* ESTILO PARA EVENTOS */
+.titulo-eventos{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(172, 255, 47, 0.842);
+    margin-top: 30px;
+}
+
+
+.titulo-pagina-eventos{
+    height: 150px;
+    padding: 60px 50px 20px 50px;
+    font-size: 100px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.eventos{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 100%;
+}
+
+.eventos-texto{
+    text-align: center;
+    font-size:  30px;
+    padding-top: 3%;
+    padding-left: 3%;
+    font-family: 'Bebas Neue', cursive;
+    align-items: center;
+    color: aliceblue;
+}
+
+.inscribite{
+    display: flex;
+    margin: 10vh 0vh 10vh 0vh;
+    justify-content: center;
+    font-size: 25px;
+}
+.inscribite-link{
+    text-decoration: none;
+    color: rgba(172, 255, 47, 0.842);
+    font-family: 'Bebas Neue', cursive;
+    text-decoration: none;
+    border: 2px white solid;
+    padding: 4px 4px;
+}
+
+/* ESTILOS PARA CONTACTO */
+.titulo-contacto{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(172, 255, 47, 0.842);
+    margin-top: 30px;
+}
+
+
+.titulo-pagina-contacto{
+    height: 150px;
+    padding: 60px 50px 20px 50px;
+    font-size: 100px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.main-contacto{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.contacto-texto{
+    font-size:  30px;
+    padding-top: 3%;
+    padding-left: 3%;
+    font-family: 'Bebas Neue', cursive;
+    align-items: center;
+    color: aliceblue;
+}
+
+.main-contacto-2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-left: 12%;
+}
+.contacto-texto-2{
+    font-size:  30px;
+    padding-top: 3%;
+    padding-left: 3%;
+    font-family: 'Bebas Neue', cursive;
+    align-items: center;
+    color: aliceblue;
+    
+}
+
+.nombre{
+    font-size:  30px;
+    padding-top: 3%;
+    padding-left: 3%;
+    font-family: 'Bebas Neue', cursive;
+    align-items: center;
+    color: aliceblue;
+}
+.apellido{
+    font-size:  30px;
+    padding-top: 3%;
+    padding-left: 3%;
+    font-family: 'Bebas Neue', cursive;
+    align-items: center;
+    color: aliceblue;
+}
+.telefono{
+    font-size:  30px;
+    padding-top: 3%;
+    padding-left: 3%;
+    font-family: 'Bebas Neue', cursive;
+    align-items: center;
+    color: aliceblue;
+}
+.mail{
+    font-size:  30px;
+    padding-top: 3%;
+    padding-left: 3%;
+    font-family: 'Bebas Neue', cursive;
+    align-items: center;
+    color: aliceblue;
+}
+
+.main-contacto-2 a{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgba(141, 141, 141, 0.418);
+    font-family: 'Nunito', sans-serif;
+    text-decoration: none;
+    border: 1px rgba(255, 255, 255, 0.24) solid;
+    padding: 4px 4px;
+}
+
+/* ESTILOS PARA INSCRIPCION */
+.titulo-inscripcion{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(172, 255, 47, 0.842);
+    margin-top: 30px;
+}
+
+
+.titulo-pagina-inscripcion{
+    height: 150px;
+    padding: 60px 50px 20px 50px;
+    font-size: 100px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.main-inscripcion{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-left: 12%;
+    margin-right: 12%;
+}
+.inscripcion-texto{
+    font-size:  30px;
+    padding-top: 3%;
+    padding-left: 3%;
+    font-family: 'Bebas Neue', cursive;
+    
+    color: aliceblue;
+    
+}
+
+.main-inscripcion-2{
+    display: flex;
+    height: 60vh;
+    align-items: flex-start;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-left: 12%;
+    flex-flow: column wrap;
+}
+.metodo{
+    font-size:  30px;
+    padding-top: 3%;
+    padding-left: 3%;
+    font-family: 'Bebas Neue', cursive;
+    color: aliceblue;
+
+}
+.importe{
+    font-size:  30px;
+    padding-top: 3%;
+    padding-left: 3%;
+    font-family: 'Bebas Neue', cursive;
+    color: aliceblue;
+}
+
+.main-inscripcion-2 a{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgba(141, 141, 141, 0.418);
+    font-family: 'Nunito', sans-serif;
+    text-decoration: none;
+    border: 1px rgba(255, 255, 255, 0.24) solid;
+    padding: 4px 4px;
+}
+
+
+
+
+
+
+/* ESTILO PARA LA MOBILE VIEW  */
+
+@media only screen and (min-width:371px) and (max-width: 480px) {
+    body{
+        background-color: rgb(41, 34, 34);
+    }
+    
+    /* ESTILO PARA EL INDEX MOBILE  */
+    
+    .banner-imagen{
+        width: 100%;
+    }
+    
+    .cabecera{
+        background-color: rgba(172, 255, 47, 0.842);
+        position: sticky;
+        top: 0px;
+        
+    }
+    
+    .cabecera__lista{
+        height: 10vh;
+        
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .cabecera__lista a{
+        text-decoration: none;
+        color: aliceblue;
+        font-family: 'Bebas Neue', cursive;
+    }
+    
+    
+    .cabecera__lista__items{
+        list-style: none;
+        font-size: 20px;
+    }
+     
+    .cabecera__logo{
+        width: 40px;   
+    }
+    .presentacion{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    
+    .iframe-presentacion{
+        width: 100%;
+        
+        
+    }
+    
+    .texto-presentacion{
+        text-align: center;
+        font-size:  20px;
+        padding-top: 11%;
+        padding-right: 5%;
+        font-family: 'Bebas Neue', cursive;
+        color: aliceblue;
+    }
+    
+    .titulo{
+        display: flex;
+        justify-content: center;
+        background-color: rgba(172, 255, 47, 0.842);
+    }
+    
+    
+    .titulo-pagina{
+        height: 75px;
+        padding: 35px 50px 20px 50px;
+        font-size: 50px;
+        font-family: 'Bebas Neue', cursive;
+    }
+
+    .titulo-2{
+        display: flex;
+        justify-content: center;
+        margin-top: 100px;
+        background-color: rgba(172, 255, 47, 0.842);
+        
+        
+    }
+    
+    
+    .titulo-pagina-2{
+        height: 75px;
+        font-size: 50px;
+        font-family: 'Bebas Neue', cursive;
+        padding: 35px 50px 20px 50px;
+    }
+    
+    
+    .ultimas-noticias{
+        display: flex;
+        flex-direction: column;
+        padding-left: 16%;
+        padding-top: 7%;
+        align-items: center;
+       
+    }
+    
+    .noticia-1-imagen{
+        width: 80%;
+        
+    }
+
+    .noticia-1-texto{
+        width: 80%;
+        font-size: 20px;
+        font-family: 'Kanit', sans-serif;
+        color: aliceblue;
+        text-align: center;
+    }
+
+    .noticia-1-texto a{
+        text-decoration: none;
+        color: rgba(172, 255, 47, 0.842);
+        font-family: 'Kanit', sans-serif;
+    }
+
+    .noticia-2-imagen{
+        width: 80%;
+        font-size: 20px;
+        font-family: 'Kanit', sans-serif;
+        color: aliceblue;
+        text-align: center;
+    }
+
+    .noticia-2-texto{
+        width: 80%;
+        font-size: 20px;
+        font-family: 'Kanit', sans-serif;
+        color: aliceblue;
+        text-align: center;
+    }
+    .noticia-2-texto a{
+        text-decoration: none;
+        color: rgba(172, 255, 47, 0.842);
+        font-family: 'Kanit', sans-serif;
+    }
+    
+    .noticia-3-imagen{
+        width: 80%;
+        font-size: 20px;
+        font-family: 'Kanit', sans-serif;
+        color: aliceblue;
+        text-align: center;
+    }
+
+    .noticia-3-texto{
+        width: 80%;
+        font-size: 20px;
+        font-family: 'Kanit', sans-serif;
+        color: aliceblue;
+        text-align: center;
+    }
+
+    .noticia-3-texto a{
+        text-decoration: none;
+        color: rgba(172, 255, 47, 0.842);
+        font-family: 'Kanit', sans-serif;
+    }
+    
+    .mas-noticias{
+        margin: 3vh 0vh 10vh 0vh;
+        justify-content: center;
+        text-align: center;
+        font-size: 25px;
+    }
+    .mas-noticias-link{
+        text-decoration: none;
+        color: rgba(172, 255, 47, 0.842);
+        font-family: 'Bebas Neue', cursive;
+        border: 2px white solid;
+        padding: 4px 4px;
+    }
+    .titulo-3{
+        display: flex;
+        justify-content: center;
+        margin-top: 100px;
+        background-color: rgba(172, 255, 47, 0.842);
+         
+    }
+    
+    
+    .titulo-pagina-3{
+        height: 75px;
+        font-size: 50px;
+        font-family: 'Bebas Neue', cursive;
+        padding: 35px 50px 20px 50px;
+    }
+    
+    .proximo-evento{
+        display: flex;
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        height: 100%;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .proximo-evento-imagen{
+        width: 100%;
+        padding-top: 7%;
+    }
+    .proximo-evento-texto{
+        text-align: center;
+        font-size:  30px;
+        padding-top: 11%;
+        
+        font-family: 'Bebas Neue', cursive;
+        color: aliceblue;
+    }
+    .proximo-evento-texto a{
+        text-decoration: none;
+        color: rgba(172, 255, 47, 0.842);
+        font-family: 'Bebas Neue', cursive;
+    }
+    .proximo-evento-imagen a{
+        color: rgba(172, 255, 47, 0.842);
+    }
+    .mas-info{
+        margin: 10vh 0vh 10vh 0vh;
+        justify-content: center;
+        text-align: center;
+        font-size: 25px;
+    }
+    .mas-info-link{
+        text-decoration: none;
+        color: rgba(172, 255, 47, 0.842);
+        font-family: 'Bebas Neue', cursive;
+        border: 2px white solid;
+        padding: 4px 4px;
+    }
+    
+    .footer-container{
+        display: flex;
+        justify-content: space-between;
+        background-color: rgba(172, 255, 47, 0.842);
+        height: 10vh;
+        align-items: center;
+    }
+    
+    
+    .twitter-icon{
+        width: 10px;
+    }
+    .twitter-link{
+        text-decoration: none;
+        color: rgb(41, 34, 34);
+        font-family: 'Bebas Neue', cursive;
+    }
+    .instagram-icon{
+        width: 10px
+    }
+    .instagram-link{
+        text-decoration: none;
+        color: rgb(41, 34, 34);
+        font-family: 'Bebas Neue', cursive;
+    }
+    .footer-logo{
+        width: 40px
+    }
+    .datos-contacto{
+        font-family: 'Kanit', sans-serif;
+        font-size: 10px;
+    }
+    
+    
+
+
+
+/* ESTILO PARA NOTICIAS MOBILE*/
+
+.titulo-noticias{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(172, 255, 47, 0.842);
+    margin-top: 20px;
+}
+
+
+.titulo-pagina-noticias{
+    height: 75px;
+    padding: 35px 50px 20px 50px;
+    font-size: 50px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.grid-container{
+    
+    height: 50%;
+    margin-top: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: grid;
+    grid-template-rows: 150px 150px;
+    grid-template-columns: 2fr 1fr;
+    gap: 10px;
+    /* border: 2px red solid; */
+}
+
+
+.grid-items:first-child{
+    grid-column: 1/ 2;
+    grid-row: 1/ 3;
+}
+
+.grid-1-imagen{
+    width: 100%;
+    height: 100%;
+}
+
+.grid-2-imagen{
+    width: 100%;
+    height: 100%;
+}
+
+.grid-3-imagen{
+    width: 100%;
+    height: 100%;
+}
+
+.noticias-container{
+    display: column;
+    
+    margin-top: 100px;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
+
+.noticias-items-1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 100px;
+    align-items: center;
+
+}
+
+.noticias-imagen-1{
+    width: 400px;
+}
+.noticias-texto-1{
+    width: 60vw;
+    font-size: 20px;
+    font-family: 'Kanit', sans-serif;
+    color: aliceblue;
+    
+}
+.noticias-texto-1 a{
+    text-decoration: none;
+    color: rgba(172, 255, 47, 0.842);
+    font-family: 'Kanit', sans-serif;
+}
+
+.noticias-items-2{
+    display: flex;
+    align-items: center;
+    margin-bottom: 100px;
+    flex-direction: column;
+    text-align: center;
+}
+
+.noticias-imagen-2{
+    width: 400px;
+}
+.noticias-texto-2{
+    width: 60vw;
+    font-size: 20px;
+    font-family: 'Kanit', sans-serif;
+    color: aliceblue;
+}
+.noticias-texto-2 a{
+    text-decoration: none;
+    color: rgba(172, 255, 47, 0.842);
+    font-family: 'Kanit', sans-serif;
+}
+
+.noticias-items-3{
+    display: flex;
+    align-items: center;
+    margin-bottom: 100px;
+    flex-direction: column;
+    text-align: center;
+}
+
+.noticias-imagen-3{
+    width: 400px;
+}
+.noticias-texto-3{
+    width: 60vw;
+    font-size: 20px;
+    font-family: 'Kanit', sans-serif;
+    color: aliceblue;
+}
+.noticias-texto-3 a{
+    text-decoration: none;
+    color: rgba(172, 255, 47, 0.842);
+    font-family: 'Kanit', sans-serif;
+}
+
+
+/* ESTILO PARA EVENTOS MOBILE*/
+.titulo-eventos{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(172, 255, 47, 0.842);
+    margin-top: 20px;
+}
+
+
+.titulo-pagina-eventos{
+    height: 75px;
+    padding: 35px 50px 20px 50px;
+    font-size: 50px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.eventos{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin-top: 20px;
+    height: 100%;
+}
+.eventos-imagen{
+    width: 400px;
+    height: 200px;
+    align-self: center;
+}
+.eventos-texto{
+    text-align: center;
+    font-size:  30px;
+    padding-top: 3%;
+    padding-left: 3%;
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    color: aliceblue;
+}
+
+.inscribite{
+    display: flex;
+    margin: 10vh 0vh 10vh 0vh;
+    justify-content: center;
+    font-size: 25px;
+}
+.inscribite-link{
+    text-decoration: none;
+    color: rgba(172, 255, 47, 0.842);
+    font-family: 'Bebas Neue', cursive;
+    text-decoration: none;
+    border: 2px white solid;
+    padding: 4px 4px;
+}
+
+/* ESTILOS PARA CONTACTO MOBILE*/
+.titulo-contacto{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(172, 255, 47, 0.842);
+    margin-top: 30px;
+}
+
+
+.titulo-pagina-contacto{
+    height: 75px;
+    padding: 35px 50px 20px 50px;
+    font-size: 50px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.main-contacto{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.contacto-mapa{
+    width: 400px;
+    align-self: center;
+}
+.contacto-texto{
+    font-size:  30px;
+    padding-top: 3%;
+    padding-left: 3%;
+    font-family: 'Bebas Neue', cursive;
+    align-items: center;
+    color: aliceblue;
+}
+
+.main-contacto-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 7px;
+    
+}
+.contacto-texto-2{
+    font-size:  30px;
+    padding-top: 3%;
+    padding-left: 3%;
+    font-family: 'Bebas Neue', cursive;
+    color: aliceblue;
+    
+}
+
+.nombre{
+    font-size:  30px;
+    padding-top: 3%;
+    padding-left: 3%;
+    font-family: 'Bebas Neue', cursive;
+    color: aliceblue;
+}
+.apellido{
+    font-size:  30px;
+    padding-top: 3%;
+    padding-left: 3%;
+    font-family: 'Bebas Neue', cursive;
+    color: aliceblue;
+}
+.telefono{
+    font-size:  30px;
+    padding-top: 3%;
+    padding-left: 3%;
+    font-family: 'Bebas Neue', cursive;
+    color: aliceblue;
+}
+.mail{
+    font-size:  30px;
+    padding-top: 3%;
+    padding-left: 3%;
+    font-family: 'Bebas Neue', cursive;
+    color: aliceblue;
+}
+
+.main-contacto-2 a{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgba(141, 141, 141, 0.418);
+    font-family: 'Nunito', sans-serif;
+    text-decoration: none;
+    border: 1px rgba(255, 255, 255, 0.24) solid;
+    padding: 4px 4px;
+}
+
+/* ESTILOS PARA INSCRIPCION MOBILE*/
+.titulo-inscripcion{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(172, 255, 47, 0.842);
+    margin-top: 20px;
+}
+
+
+.titulo-pagina-inscripcion{
+    height: 75px;
+    padding: 35px 50px 20px 50px;
+    font-size: 50px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.main-inscripcion{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-left: 12%;
+    margin-right: 12%;
+}
+.inscripcion-texto{
+    font-size:  30px;
+    padding-top: 3%;
+    padding-left: 3%;
+    font-family: 'Bebas Neue', cursive;
+    
+    color: aliceblue;
+    
+}
+
+.main-inscripcion-2{
+    display: flex;
+    height: 60vh;
+    align-items: flex-start;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-left: 12%;
+    flex-flow: column wrap;
+}
+.metodo{
+    font-size:  30px;
+    padding-top: 3%;
+    padding-left: 3%;
+    font-family: 'Bebas Neue', cursive;
+    color: aliceblue;
+
+}
+.importe{
+    font-size:  30px;
+    padding-top: 3%;
+    padding-left: 3%;
+    font-family: 'Bebas Neue', cursive;
+    color: aliceblue;
+}
+
+.main-inscripcion-2 a{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgba(141, 141, 141, 0.418);
+    font-family: 'Nunito', sans-serif;
+    text-decoration: none;
+    border: 1px rgba(255, 255, 255, 0.24) solid;
+    padding: 4px 4px;
+}
+}
