@@ -11,8 +11,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kanit&family=Nunito:ital,wght@1,200&display=swap');
 
 body{
-    background-color: rgb(41, 34, 34);
+    background-color: rgb(41, 34, 34) !important;
 }
+
 
 /* ESTILO PARA EL INDEX*/
 
@@ -86,7 +87,6 @@ body{
 
 .titulo-pagina{
     height: 150px;
-    padding: 60px 50px 20px 50px;
     font-size: 100px;
     font-family: 'Bebas Neue', cursive;
 }
@@ -97,14 +97,11 @@ body{
     justify-content: center;
     margin-top: 100px;
     background-color: rgba(172, 255, 47, 0.842);
-    
-    
 }
 
 
 .titulo-pagina-2{
     height: 150px;
-    padding: 60px 50px 20px 50px;
     font-size: 100px;
     font-family: 'Bebas Neue', cursive;
     
@@ -295,6 +292,7 @@ body{
 
 .datos-contacto{
     font-family: 'Kanit', sans-serif;
+    height: 100%;
 }
 
 
