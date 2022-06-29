@@ -12,11 +12,13 @@
      
     
         <!-- HEADER -->
-        <header class="cabecera">
-            <!-- logo -->
+        <!-- <header class="cabecera">
             <nav>
                 <ul class="cabecera__lista">
                     <li class="cabecera__lista__items">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                          </button>
                         <a href="index.html"><img src="multimedia/logo.jpg" alt="Logo" class="cabecera__logo">
                         </a>
                     </li>
@@ -26,10 +28,30 @@
                     <li class="cabecera__lista__items"><a href="servicios/inscripciones.html">Inscripciones</a></li>
                     <li class="cabecera__lista__items"><a href="servicios/contacto.html">Contacto</a></li>
                 </ul>
-                <!-- Navbar --> 
             </nav>
-        </header>
+        </header> -->
         <!-- FIN HEADER -->
+
+        <header class="cabecera">
+            <nav class="navbar navbar-expand-lg bg-rgba(172, 255, 47, 0.842) ">
+                <div class="container-fluid">
+                    
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse d-flex justify-content-around" id="navbarNavAltMarkup">
+                    <div class="navbar-nav nav-fill w-100 position: absolute">
+                      <a class="nav-link " href="index.html"><img src="multimedia/logo.jpg" alt="Logo" width="40" height="40"></a>
+                      <a class="nav-link fs-3" href="index.html">Home</a>
+                      <a class="nav-link fs-3" href="servicios/noticias.html">Noticias</a>
+                      <a class="nav-link fs-3" href="servicios/eventos.html">Eventos</a>
+                      <a class="nav-link fs-3" href="servicios/inscripciones.html">Inscripciones</a>
+                      <a class="nav-link fs-3" href="servicios/contacto.html">Contacto</a>
+                    </div>
+                  </div>
+                </div>
+              </nav>
+        </header>
 
 
         <!-- BANNER -->

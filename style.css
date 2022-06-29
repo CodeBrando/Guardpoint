@@ -4,7 +4,10 @@
     
 }
 
-
+a {
+     --bs-link-color: aliceblue;
+     --bs-link-hover-color: aliceblue;
+}
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kanit&display=swap');
 
@@ -27,7 +30,7 @@ body{
     top: 0px;
 }
 
-.cabecera__lista{
+/* .cabecera__lista{
     height: 10vh;
     display: flex;
     flex-direction: row;
@@ -53,7 +56,15 @@ body{
 .cabecera__logo:hover{
     transform: rotate(360deg) scale(1.5);
     transition: all 1s;
+} */
+
+.nav-link{
+    text-decoration: none;
+    color: aliceblue !important;
+    font-family: 'Bebas Neue', cursive;
+    display: inline !important;
 }
+
 
 
 .presentacion{
