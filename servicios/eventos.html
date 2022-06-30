@@ -10,9 +10,8 @@
 </head>
 <body>
     
-    <!-- HEADER -->
-    <header class="cabecera">
-        <!-- logo -->
+    
+    <!-- <header class="cabecera">
         <nav>
             <ul class="cabecera__lista">
                 <li class="cabecera__lista__items">
@@ -25,11 +24,43 @@
                 <li class="cabecera__lista__items"><a href="../servicios/inscripciones.html">Inscripciones</a></li>
                 <li class="cabecera__lista__items"><a href="../servicios/contacto.html">Contacto</a></li>
             </ul>
-            <!-- Navbar --> 
         </nav>
-    </header>
-    <!-- FIN HEADER -->
+    </header> -->
+    
 
+    <!-- HEADER -->
+
+    <header class="cabecera">
+        <nav class="navbar navbar-expand-lg bg-rgba(172, 255, 47, 0.842)">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="../index.html"><img src="../multimedia/logo.jpg" alt="Logo" width="40" height="40"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav d-flex justify-content-around w-100">
+                  <li class="nav-item">
+                    <a class="nav-link fs-3" aria-current="page" href="../index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link fs-3" href="noticias.html">Noticias</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link fs-3" href="eventos.html">Eventos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link fs-3" href="inscripciones.html">Inscripciones</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link fs-3" href="contacto.html">Contacto</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+    
+    <!-- FIN HEADER -->
 
 
     <section class="titulo-eventos">
@@ -39,11 +70,14 @@
     </section>
     
 
-    <section class="eventos">
-        <img src="../multimedia/banner.jpg" alt="Próximo evento" class="eventos-imagen">
-        <p class="eventos-texto">
+    <section class="eventos container">
+        <div class="row">
+        <img src="../multimedia/banner.jpg" alt="Próximo evento" class="eventos-imagen col-12">
+        <p class="eventos-texto col-12">
             Los eventos de Guardpoint suceden una vez al año, al rededor de Junio, Julio o Agosto. Suelen ser eventos con 9 juegos que constituyen el evento principal, acompañado de diversos eventos secundarios, tales como torneo de subasta de personajes, juegos rougue o muerte súbita. Jugadores de todo el mundo se acercan a competir en este torneo, ¿Qué esperas para medirte contra ellos?
         </p>
+        </div>
+        
     </section>
 
     <section class="inscribite">
@@ -53,7 +87,7 @@
 
     <!-- FOOTER -->
     <!-- <footer>
-        
+
         <div class="footer-container">
 
             <div class="redes-sociales"> 
