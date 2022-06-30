@@ -68,21 +68,20 @@ body{
 
 
 .presentacion{
-    width: 80%;
     margin-left: 10%;
     margin-right: 10%;
     height: 100%;
     display: flex;
-    margin: 0px auto;
+    justify-content: center;
 }
 
-.video-presentacion{
-    padding-top: 7%;
+.presentacion iframe{
+    width: 100% !important;
 }
 
 .texto-presentacion{
     text-align: center;
-    font-size:  30px;
+    font-size: 2vh;
     padding-top: 11%;
     padding-left: 4% ;
     font-family: 'Bebas Neue', cursive;
@@ -97,26 +96,45 @@ body{
 
 
 .titulo-pagina{
-    height: 150px;
-    font-size: 100px;
+    height: 15vh;
+    font-size: 10vh;
     font-family: 'Bebas Neue', cursive;
+    padding-top: 2vh;
 }
     
 
 .titulo-2{
     display: flex;
     justify-content: center;
-    margin-top: 100px;
+    margin-top: 10vh;
     background-color: rgba(172, 255, 47, 0.842);
 }
 
-
 .titulo-pagina-2{
-    height: 150px;
-    font-size: 100px;
+    height: 15vh;
+    font-size: 10vh;
     font-family: 'Bebas Neue', cursive;
-    
+    padding-top: 1.5vh;
+    align-items: center;
 }
+
+@media only screen and (min-width:481px) and (max-width: 525px) {
+    .titulo-2{
+        display: flex;
+        justify-content: center;
+        margin-top: 10vh;
+        background-color: rgba(172, 255, 47, 0.842);
+    }
+
+    .titulo-pagina-2{
+        height: 15vh;
+        font-size: 9vh;
+        font-family: 'Bebas Neue', cursive;
+    }
+}
+
+
+
 
 
 /* .ultimas-noticias{
@@ -129,15 +147,17 @@ body{
     justify-content: space-evenly;
 } */
 
+
 .noticia-1-imagen{
-    width: 20vw; 
+    width: 60vw; 
 }
 
 .noticia-1-texto{
-    font-size: 20px;
+    font-size: 2vh;
     font-family: 'Kanit', sans-serif;
     color: aliceblue;
-    width: 20vw;
+    width: 100%;
+
 }
 
 .noticia-1-texto a{
@@ -147,12 +167,12 @@ body{
 }
 
 .noticia-2-imagen{
-    width: 20vw;
+    width: 60vw;
 }
 
 .noticia-2-texto{
-    width: 20vw;
-    font-size: 20px;
+    width: 100%;
+    font-size: 2vh;
     font-family: 'Kanit', sans-serif;
     color: aliceblue;
 }
@@ -165,12 +185,12 @@ body{
 
 
 .noticia-3-imagen{
-    width: 20vw;
+    width: 60vw;
 }
 
 .noticia-3-texto{
-    width: 20vw;
-    font-size: 20px;
+    width: 100%;
+    font-size: 2vh;
     font-family: 'Kanit', sans-serif;
     color: aliceblue;
 }
@@ -197,17 +217,32 @@ body{
 .titulo-3{
     display: flex;
     justify-content: center;
-    margin-top: 100px;
+    margin-top: 10vh;
     background-color: rgba(172, 255, 47, 0.842);
-     
 }
 
 
 .titulo-pagina-3{
-    height: 150px;
-    padding: 60px 50px 20px 50px;
-    font-size: 100px;
+    height: 15vh;
+    font-size: 10vh;
     font-family: 'Bebas Neue', cursive;
+    padding-top: 1.5vh;
+    align-items: center;
+}
+
+@media only screen and (min-width:481px) and (max-width: 525px) {
+    .titulo-3{
+        display: flex;
+        justify-content: center;
+        margin-top: 10vh;
+        background-color: rgba(172, 255, 47, 0.842);
+    }
+
+    .titulo-pagina-3{
+        height: 15vh;
+        font-size: 9vh;
+        font-family: 'Bebas Neue', cursive;
+    }
 }
 
 .proximo-evento{
@@ -306,10 +341,10 @@ body{
 
 
 .titulo-pagina-noticias{
-    height: 150px;
-    padding: 60px 50px 20px 50px;
-    font-size: 100px;
+    height: 15vh;
+    font-size: 10vh;
     font-family: 'Bebas Neue', cursive;
+    padding-top: 2vh;
 }
 
 .grid-container{
@@ -363,7 +398,7 @@ body{
 .noticias-container{
     display: column;
     
-    margin-top: 100px;
+    margin-top: 10vh;
     margin-left: 5%;
     margin-right: 5%;
     
@@ -376,7 +411,8 @@ body{
 }
 
 .noticias-imagen-1{
-    width: 200px;
+    width: 30vw;
+    height: 20vh;
 }
 .noticias-texto-1{
     width: 60vw;
@@ -397,7 +433,8 @@ body{
 }
 
 .noticias-imagen-2{
-    width: 200px;
+    width: 40vw;
+    height: 20vh;
 }
 .noticias-texto-2{
     width: 60vw;
@@ -418,7 +455,8 @@ body{
 }
 
 .noticias-imagen-3{
-    width: 200px;
+    width: 20vw;
+    height: 20vh;
 }
 .noticias-texto-3{
     width: 60vw;
@@ -651,7 +689,7 @@ body{
 
 /* ESTILO PARA LA MOBILE VIEW  */
 
-@media only screen and (min-width:371px) and (max-width: 480px) {
+@media only screen and (min-width:360px) and (max-width: 480px) {
     body{
         background-color: rgb(41, 34, 34);
     }
@@ -669,7 +707,7 @@ body{
         
     }
     
-    .cabecera__lista{
+    /* .cabecera__lista{
         height: 10vh;
         
         display: flex;
@@ -692,7 +730,7 @@ body{
      
     .cabecera__logo{
         width: 40px;   
-    }
+    } */
     .presentacion{
         width: 100%;
         height: 100%;
@@ -704,8 +742,6 @@ body{
     
     .iframe-presentacion{
         width: 100%;
-        
-        
     }
     
     .texto-presentacion{
@@ -725,27 +761,27 @@ body{
     
     
     .titulo-pagina{
-        height: 75px;
-        padding: 35px 50px 20px 50px;
-        font-size: 50px;
+        height: 15vh;
+        font-size: 10vh;
         font-family: 'Bebas Neue', cursive;
+        padding-top: 2vh;
     }
 
     .titulo-2{
         display: flex;
         justify-content: center;
-        margin-top: 100px;
+        align-items: center;
+        padding-top: 2vh;
+        margin-top: 10vh;
         background-color: rgba(172, 255, 47, 0.842);
-        
-        
+        height: 15vh;
     }
     
     
     .titulo-pagina-2{
-        height: 75px;
-        font-size: 50px;
+        font-size: 7vh;
         font-family: 'Bebas Neue', cursive;
-        padding: 35px 50px 20px 50px;
+        align-items: center;
     }
     
     
@@ -764,8 +800,8 @@ body{
     }
 
     .noticia-1-texto{
-        width: 80%;
-        font-size: 20px;
+        width: 100%;
+        font-size: 3vh;
         font-family: 'Kanit', sans-serif;
         color: aliceblue;
         text-align: center;
@@ -779,15 +815,11 @@ body{
 
     .noticia-2-imagen{
         width: 80%;
-        font-size: 20px;
-        font-family: 'Kanit', sans-serif;
-        color: aliceblue;
-        text-align: center;
     }
 
     .noticia-2-texto{
-        width: 80%;
-        font-size: 20px;
+        width: 100%;
+        font-size: 3vh;
         font-family: 'Kanit', sans-serif;
         color: aliceblue;
         text-align: center;
@@ -800,15 +832,11 @@ body{
     
     .noticia-3-imagen{
         width: 80%;
-        font-size: 20px;
-        font-family: 'Kanit', sans-serif;
-        color: aliceblue;
-        text-align: center;
     }
 
     .noticia-3-texto{
-        width: 80%;
-        font-size: 20px;
+        width: 100%;
+        font-size: 3vh;
         font-family: 'Kanit', sans-serif;
         color: aliceblue;
         text-align: center;
@@ -836,17 +864,18 @@ body{
     .titulo-3{
         display: flex;
         justify-content: center;
-        margin-top: 100px;
+        align-items: center;
+        padding-top: 2vh;
+        margin-top: 10vh;
         background-color: rgba(172, 255, 47, 0.842);
-         
+        height: 15vh;
     }
     
     
     .titulo-pagina-3{
-        height: 75px;
-        font-size: 50px;
+        font-size: 7vh;
         font-family: 'Bebas Neue', cursive;
-        padding: 35px 50px 20px 50px;
+        align-items: center;
     }
     
     .proximo-evento{
@@ -941,10 +970,10 @@ body{
 
 
 .titulo-pagina-noticias{
-    height: 75px;
-    padding: 35px 50px 20px 50px;
-    font-size: 50px;
+    height: 15vh;
+    font-size: 10vh;
     font-family: 'Bebas Neue', cursive;
+    padding-top: 2vh;
 }
 
 .grid-container{
@@ -1000,11 +1029,12 @@ body{
 }
 
 .noticias-imagen-1{
-    width: 400px;
+    width: 60vw;
+    height: 20vh;
 }
 .noticias-texto-1{
     width: 60vw;
-    font-size: 20px;
+    font-size: 3vh;
     font-family: 'Kanit', sans-serif;
     color: aliceblue;
     
@@ -1024,11 +1054,11 @@ body{
 }
 
 .noticias-imagen-2{
-    width: 400px;
+    width: 80vw;
 }
 .noticias-texto-2{
     width: 60vw;
-    font-size: 20px;
+    font-size: 3vh;
     font-family: 'Kanit', sans-serif;
     color: aliceblue;
 }
@@ -1047,7 +1077,8 @@ body{
 }
 
 .noticias-imagen-3{
-    width: 400px;
+    width: 40vw;
+    height: 20vh;
 }
 .noticias-texto-3{
     width: 60vw;

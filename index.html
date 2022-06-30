@@ -11,7 +11,7 @@
 <body>
      
     
-        <!-- HEADER -->
+        
         <!-- <header class="cabecera">
             <nav>
                 <ul class="cabecera__lista">
@@ -30,12 +30,11 @@
                 </ul>
             </nav>
         </header> -->
-        <!-- FIN HEADER -->
+        
 
-        <header class="cabecera">
+        <!-- <header class="cabecera">
             <nav class="navbar navbar-expand-lg bg-rgba(172, 255, 47, 0.842) ">
                 <div class="container-fluid">
-                    
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                   </button>
@@ -51,7 +50,44 @@
                   </div>
                 </div>
               </nav>
+        </header> -->
+
+<!-- HEADER -->
+
+        <header class="cabecera">
+            <nav class="navbar navbar-expand-lg bg-rgba(172, 255, 47, 0.842)">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="index.html"><img src="multimedia/logo.jpg" alt="Logo" width="40" height="40"></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav d-flex justify-content-around w-100">
+                      <li class="nav-item">
+                        <a class="nav-link fs-3" aria-current="page" href="index.html">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link fs-3" href="servicios/noticias.html">Noticias</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link fs-3" href="servicios/eventos.html">Eventos</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link fs-3" href="servicios/inscripciones.html">Inscripciones</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link fs-3" href="servicios/contacto.html">Contacto</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
         </header>
+        
+<!-- FIN HEADER -->
+
+
+
 
 
         <!-- BANNER -->
@@ -64,16 +100,17 @@
         
             <!-- PRESETNACIÓN DE LA PÁGINA -->
             <section class="titulo">
-                <h1 class="titulo-pagina p-4">
+                <h1 class="titulo-pagina">
                     GuardPoint
                 </h1>
             </section>
-            <section class="presentacion container">
-                <div class="row">
-                    <div class="video-presentacion col">
-                        <iframe class="iframe-presentacion" width="560" height="315" src="https://www.youtube.com/embed/fnxjYTePJDI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        </div>
-                    <div class="texto-presentacion col">
+            <section class="presentacion container pt-5">
+                <div class="row" >
+                    <div class="video-presentacion col-lg-8 col-md-12 col-sm-12 embed-responsive " >
+                        <iframe class="iframe-presentacion" width="560" height="315" src="https://www.youtube.com/embed/fnxjYTePJDI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen ></iframe>
+                    </div>
+
+                    <div class="texto-presentacion col-lg-4 col-md-12 col-sm-12">
                         <p>
                                ¡Bienvenidos al sitio oficial de GuardPoint! Organizamos torneos locales de fighting games en Argentina.<br>
                                Seguí navegando para encontrar información sobre nuestros anteriores y futuros eventos, o si estás interesado
@@ -94,31 +131,46 @@
                     Últimas Noticias
                 </h2>
             </section>
-            <section class="container ultimas-noticias pt-5">
-                <div class="row">
-                    <div class="noticia-1 col">
+            <section class="container ultimas-noticias pt-5 ">
+
+                <div class="row pb-5 center-block text-center">
+                    <div class="noticia-1 col-lg-8 col-md-12 col-sm-12">
                         <img src="multimedia/noticias.jpg" alt="Noticia 1" class="noticia-1-imagen">
-                        <p class="noticia-1-texto">
+                    </div>
+                    <div class="noticia-1 center-block text-center col-lg-4 col-md-12 col-sm-12">
+                        <p class="noticia-1-texto center-block text-center">
                             Profesionales de la escena japonesa estarán participando en el próximo evento de GuardPoint, según anuncian sus sponsors. Enterate más acerca de los competidores que vendrán a pelear por el primer puesto haciendo click <a href="servicios/noticias.html" >aquí.</a>
                         </p>
                     </div>
-    
-                    <div class="noticia-2 col">
+                </div>
+
+                <div class="row pb-5 center-block text-center">
+                    <div class="noticia-2 col-lg-8 col-md-12 col-sm-12">
                         <img src="multimedia/noticias2.jpg" alt="Noticia 2" class="noticia-2-imagen">
-                        <p class="noticia-2-texto"> 
+                        
+                    </div>
+                    
+                    <div class="noticia-2 col-lg-4 col-md-12 col-sm-12">
+                        <p class="noticia-2-texto text-center"> 
                             Seguinos en <a href="https://twitch.tv" target="_blank">twitch</a> para no perderte ninguno de nuestros eventos, incluso cuando no podes acercarte a uno.
                         </p>
                     </div>
-    
-                    <div class="noticia-3 col">
+
+                </div>
+
+                <div class="row pb-5 center-block text-center">
+                    <div class="noticia-3 col-lg-8 col-md-12 col-sm-12">
                         <img src="multimedia/noticias3.jpg" alt="Noticia 3" class="noticia-3-imagen">
-                        <p class="noticia-3-texto">
+                    </div>
+                    <div class="noticia-3 col-lg-4 col-md-12 col-sm-12">
+                        <p class="noticia-3-texto text-center">
                             No te pierdas este video de cómo uno de nuestros participantes gana un torneo haciendo sólo perfects, vendado y siendo perseguido por un gorila. Haz click <a href="../servicios/noticias.html">aquí</a> para leer la noticia completa.
                         </p>
                     </div>
+
                 </div>
                 
-
+                
             </section>
             <div class="mas-noticias">
                 <a href="servicios/noticias.html" class="mas-noticias-link">Más noticias</a>
@@ -135,8 +187,8 @@
             </section>
             <section class="proximo-evento container">
                 <div class="row align-items-center">
-                    <div class="col">
-                        <img src="multimedia/banner.jpg" alt="Próximo evento - preview" class="proximo-evento-imagen">
+                    <div class="col-12">
+                        <img src="multimedia/banner.jpg" alt="Próximo evento - preview" class="proximo-evento-imagen w-100">
                     </div>
                     <div class="col">
                         <p class="proximo-evento-texto">
@@ -155,7 +207,7 @@
 
 
             <!-- FOOTER -->
-            <footer>
+            <!-- <footer>
                 <div class="footer-container">
 
                     <div class="redes-sociales"> 
@@ -170,7 +222,7 @@
                         </div>
                     </div>
     
-                <!-- logo -->
+                
                     <a href="index.html"><img src="multimedia/logo.jpg" alt="logo" class="footer-logo" >
                     </a>
                 
@@ -184,9 +236,11 @@
                         </p>
                     </div>
                 </div>
-            </footer>
+            </footer> -->
 
             <!-- FIN FOOTER -->
+
+            <!-- Removí el footer momentáneamente porque quiero hacer uno nuevo aplicando Bootstrap, para la próxima entrega va a estar terminado -->
 
  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
