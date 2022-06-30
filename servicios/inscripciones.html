@@ -5,26 +5,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <title>Inscripciones</title>
 </head>
 <body>
+
+    <!-- <header class="cabecera">
+            <nav>
+                <ul class="cabecera__lista">
+                    <li class="cabecera__lista__items">
+                        <a href="../index.html"><img src="../multimedia/logo.jpg" alt="Logo" class="cabecera__logo">
+                        </a>
+                    </li>
+                    <li class="cabecera__lista__items"><a href="../index.html">Home</a></li>
+                    <li class="cabecera__lista__items"><a href="../servicios/noticias.html" >Noticias</a></li>
+                    <li class="cabecera__lista__items"><a href="../servicios/eventos.html" >Eventos</a></li>
+                    <li class="cabecera__lista__items"><a href="../servicios/inscripciones.html">Inscripciones</a></li>
+                    <li class="cabecera__lista__items"><a href="../servicios/contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </header> -->
+
     <!-- HEADER -->
     <header class="cabecera">
-        <!-- logo -->
-        <nav>
-            <ul class="cabecera__lista">
-                <li class="cabecera__lista__items">
-                    <a href="../index.html"><img src="../multimedia/logo.jpg" alt="Logo" class="cabecera__logo">
-                    </a>
-                </li>
-                <li class="cabecera__lista__items"><a href="../index.html">Home</a></li>
-                <li class="cabecera__lista__items"><a href="../servicios/noticias.html" >Noticias</a></li>
-                <li class="cabecera__lista__items"><a href="../servicios/eventos.html" >Eventos</a></li>
-                <li class="cabecera__lista__items"><a href="../servicios/inscripciones.html">Inscripciones</a></li>
-                <li class="cabecera__lista__items"><a href="../servicios/contacto.html">Contacto</a></li>
-            </ul>
-            <!-- Navbar --> 
-        </nav>
+        <nav class="navbar navbar-expand-lg bg-rgba(172, 255, 47, 0.842)">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="../index.html"><img src="../multimedia/logo.jpg" alt="Logo" width="40" height="40"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav d-flex justify-content-around w-100">
+                  <li class="nav-item">
+                    <a class="nav-link fs-3" aria-current="page" href="../index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link fs-3" href="noticias.html">Noticias</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link fs-3" href="eventos.html">Eventos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link fs-3" href="inscripciones.html">Inscripciones</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link fs-3" href="contacto.html">Contacto</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
     </header>
     <!-- FIN HEADER -->
 
@@ -45,7 +75,7 @@
 
     <section class="main-inscripcion-2">
         
-        <!-- Como aún no se usar formularios, improvisé cómo se vería para poder ir visualizando la idea -->
+        <!-- Para la próxima entega de este trabajo final, implementaré los forms de Bootstrap -->
 
         <div class="nombre">
             <p class="nombre-texto">
@@ -75,7 +105,7 @@
             <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" target="_blank" class="mail-link">Mail</a>
         </div>
 
-        <div class="metodo"> <!-- Acá usaría un dropdown, pero todavía no sé cómo usarlo -->
+        <div class="metodo"> 
             <p class="metodo-texto"> 
                 Método de pago:
             </p>
@@ -94,7 +124,7 @@
 
 
     <!-- FOOTER -->
-    <footer>
+    <!-- <footer>
         <div class="footer-container">
 
             <div class="redes-sociales"> 
@@ -108,8 +138,6 @@
                     <a href="https://www.instagram.com" target="_blank" class="instagram-link">Nuestro Instagram</a>
                 </div>
             </div>
-
-        <!-- logo -->
             <a href="../index.html"><img src="../multimedia/logo.jpg" alt="logo" class="footer-logo" >
             </a>
         
@@ -127,9 +155,10 @@
                 </p>
             </div>
         </div>
-    </footer>
+    </footer> -->
 
     <!-- FIN FOOTER -->
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>

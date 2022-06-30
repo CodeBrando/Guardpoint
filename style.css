@@ -526,15 +526,15 @@ body{
     display: flex;
     justify-content: center;
     background-color: rgba(172, 255, 47, 0.842);
-    margin-top: 30px;
+    margin-top: 1vh;
 }
 
 
 .titulo-pagina-contacto{
-    height: 150px;
-    padding: 60px 50px 20px 50px;
-    font-size: 100px;
+    height: 15vh;
+    font-size: 10vh;
     font-family: 'Bebas Neue', cursive;
+    padding-top: 2vh;
 }
 
 .main-contacto{
@@ -571,7 +571,7 @@ body{
 }
 
 .nombre{
-    font-size:  30px;
+    font-size:  3vh;
     padding-top: 3%;
     padding-left: 3%;
     font-family: 'Bebas Neue', cursive;
@@ -579,7 +579,7 @@ body{
     color: aliceblue;
 }
 .apellido{
-    font-size:  30px;
+    font-size:  3vh;
     padding-top: 3%;
     padding-left: 3%;
     font-family: 'Bebas Neue', cursive;
@@ -587,7 +587,7 @@ body{
     color: aliceblue;
 }
 .telefono{
-    font-size:  30px;
+    font-size:  3vh;
     padding-top: 3%;
     padding-left: 3%;
     font-family: 'Bebas Neue', cursive;
@@ -595,7 +595,7 @@ body{
     color: aliceblue;
 }
 .mail{
-    font-size:  30px;
+    font-size:  3vh;
     padding-top: 3%;
     padding-left: 3%;
     font-family: 'Bebas Neue', cursive;
@@ -618,27 +618,27 @@ body{
     display: flex;
     justify-content: center;
     background-color: rgba(172, 255, 47, 0.842);
-    margin-top: 30px;
+    margin-top: 1vh;
 }
 
 
 .titulo-pagina-inscripcion{
-    height: 150px;
-    padding: 60px 50px 20px 50px;
-    font-size: 100px;
+    height: 15vh;
+    font-size: 10vh;
     font-family: 'Bebas Neue', cursive;
+    padding-top: 2vh;
 }
 
 .main-inscripcion{
     display: flex;
     justify-content: flex-start;
-    margin-top: 100px;
-    margin-bottom: 50px;
+    margin-top: 10vh;
+    margin-bottom: 5vh;
     margin-left: 12%;
     margin-right: 12%;
 }
 .inscripcion-texto{
-    font-size:  30px;
+    font-size:  3vh;
     padding-top: 3%;
     padding-left: 3%;
     font-family: 'Bebas Neue', cursive;
@@ -657,7 +657,7 @@ body{
     flex-flow: column wrap;
 }
 .metodo{
-    font-size:  30px;
+    font-size:  3vh;
     padding-top: 3%;
     padding-left: 3%;
     font-family: 'Bebas Neue', cursive;
@@ -665,7 +665,7 @@ body{
 
 }
 .importe{
-    font-size:  30px;
+    font-size:  3vh;
     padding-top: 3%;
     padding-left: 3%;
     font-family: 'Bebas Neue', cursive;
@@ -1151,32 +1151,31 @@ body{
     display: flex;
     justify-content: center;
     background-color: rgba(172, 255, 47, 0.842);
-    margin-top: 30px;
+    margin-top: 1vh;
 }
 
 
 .titulo-pagina-contacto{
-    height: 75px;
-    padding: 35px 50px 20px 50px;
-    font-size: 50px;
+    height: 15vh;
+    font-size: 10vh;
     font-family: 'Bebas Neue', cursive;
+    padding-top: 2vh;
 }
 
 .main-contacto{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     flex-direction: column;
-    margin-top: 20px;
-    margin-bottom: 50px;
+    margin-top: 2vh;
+    margin-bottom: 3vh;
 }
 .contacto-mapa{
-    width: 400px;
-    align-self: center;
+    width: 100%;
+
 }
 .contacto-texto{
-    font-size:  30px;
+    font-size:  3vh;
     padding-top: 3%;
-    padding-left: 3%;
     font-family: 'Bebas Neue', cursive;
     align-items: center;
     color: aliceblue;
@@ -1185,47 +1184,41 @@ body{
 .main-contacto-2{
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-left: 7px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
     
 }
 .contacto-texto-2{
-    font-size:  30px;
+    font-size:  3vh;
     padding-top: 3%;
-    padding-left: 3%;
     font-family: 'Bebas Neue', cursive;
     color: aliceblue;
-    
+    text-align: center;
 }
 
 .nombre{
-    font-size:  30px;
+    font-size:  3vh;
     padding-top: 3%;
-    padding-left: 3%;
     font-family: 'Bebas Neue', cursive;
     color: aliceblue;
 }
 .apellido{
-    font-size:  30px;
+    font-size:  3vh;
     padding-top: 3%;
-    padding-left: 3%;
     font-family: 'Bebas Neue', cursive;
     color: aliceblue;
 }
 .telefono{
-    font-size:  30px;
+    font-size:  3vh;
     padding-top: 3%;
-    padding-left: 3%;
     font-family: 'Bebas Neue', cursive;
     color: aliceblue;
 }
 .mail{
-    font-size:  30px;
+    font-size:  3vh;
     padding-top: 3%;
-    padding-left: 3%;
     font-family: 'Bebas Neue', cursive;
     color: aliceblue;
 }
@@ -1244,28 +1237,29 @@ body{
 .titulo-inscripcion{
     display: flex;
     justify-content: center;
+    padding-top: 2vh;
     background-color: rgba(172, 255, 47, 0.842);
     margin-top: 20px;
 }
 
 
 .titulo-pagina-inscripcion{
-    height: 75px;
-    padding: 35px 50px 20px 50px;
-    font-size: 50px;
+    height: 15vh;
+    font-size: 8vh;
     font-family: 'Bebas Neue', cursive;
+    padding-top: 2vh;
 }
 
 .main-inscripcion{
     display: flex;
     justify-content: flex-start;
-    margin-top: 100px;
-    margin-bottom: 50px;
+    margin-top: 10vh;
+    margin-bottom: 5vh;
     margin-left: 12%;
     margin-right: 12%;
 }
 .inscripcion-texto{
-    font-size:  30px;
+    font-size:  3vh;
     padding-top: 3%;
     padding-left: 3%;
     font-family: 'Bebas Neue', cursive;
@@ -1278,13 +1272,13 @@ body{
     display: flex;
     height: 60vh;
     align-items: flex-start;
-    margin-top: 100px;
-    margin-bottom: 50px;
+    margin-top: 10vh;
+    margin-bottom: 5vh;
     margin-left: 12%;
     flex-flow: column wrap;
 }
 .metodo{
-    font-size:  30px;
+    font-size:  3vh;
     padding-top: 3%;
     padding-left: 3%;
     font-family: 'Bebas Neue', cursive;
@@ -1292,7 +1286,7 @@ body{
 
 }
 .importe{
-    font-size:  30px;
+    font-size:  3vh;
     padding-top: 3%;
     padding-left: 3%;
     font-family: 'Bebas Neue', cursive;
@@ -1301,7 +1295,7 @@ body{
 
 .main-inscripcion-2 a{
     text-decoration: none;
-    font-size: 20px;
+    font-size: 2vh;
     color: rgba(141, 141, 141, 0.418);
     font-family: 'Nunito', sans-serif;
     text-decoration: none;

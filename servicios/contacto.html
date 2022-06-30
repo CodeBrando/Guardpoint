@@ -5,15 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <title>Contacto</title>
 </head>
 <body>
     
 
-    <!-- HEADER -->
-    <header class="cabecera">
-        <!-- logo -->
-        <nav>
+    
+    <!-- <header class="cabecera">
+        
             <ul class="cabecera__lista">
                 <li class="cabecera__lista__items">
                     <a href="../index.html"><img src="../multimedia/logo.jpg" alt="Logo" class="cabecera__logo">
@@ -25,9 +25,43 @@
                 <li class="cabecera__lista__items"><a href="../servicios/inscripciones.html">Inscripciones</a></li>
                 <li class="cabecera__lista__items"><a href="../servicios/contacto.html">Contacto</a></li>
             </ul>
-            <!-- Navbar --> 
+            
         </nav>
+    </header> -->
+    
+
+    <!-- HEADER -->
+
+    <header class="cabecera">
+        <nav class="navbar navbar-expand-lg bg-rgba(172, 255, 47, 0.842)">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="../index.html"><img src="../multimedia/logo.jpg" alt="Logo" width="40" height="40"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav d-flex justify-content-around w-100">
+                  <li class="nav-item">
+                    <a class="nav-link fs-3" aria-current="page" href="../index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link fs-3" href="noticias.html">Noticias</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link fs-3" href="eventos.html">Eventos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link fs-3" href="inscripciones.html">Inscripciones</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link fs-3" href="contacto.html">Contacto</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
     </header>
+
     <!-- FIN HEADER -->
 
     <section class="titulo-contacto">
@@ -37,35 +71,43 @@
     </section>
     
 
-    <section class="main-contacto">
-        <p class="contacto-texto">
-            Podés contactarnos a través de:
-            
-            <br>
-            <br>
-
-            guardpoint@tournament.com
+    <section class="main-contacto container">
+        <div class="row">
+            <div class="col-lg-6 col-md-12 col-sm-12">
+                <p class="contacto-texto text-center">
+                    Podés contactarnos a través de:
+                    
+                    <br>
         
-            <br>
-            <br>
+                    guardpoint@tournament.com
+                
+                    
+                    
+        
+                    +54 11-6969-4200
+             
+                    
+                    
+                    Calle falsa 123, CABA
+        
+                </p>
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3287.4474101398755!2d-58.54501228417706!3d-34.51689096041735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb09a7f12373b%3A0xb84eabf4e9d8999!2sCasa%20de%20Cultura%20Villa%20Adelina!5e0!3m2!1ses-419!2sar!4v1654662682110!5m2!1ses-419!2sar" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="contacto-mapa"></iframe>
+            </div>
+            
+        </div>
+        
 
-            +54 11-6969-4200
-     
-            <br>
-            <br>
-            Calle falsa 123, CABA
-
-        </p>
-
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3287.4474101398755!2d-58.54501228417706!3d-34.51689096041735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb09a7f12373b%3A0xb84eabf4e9d8999!2sCasa%20de%20Cultura%20Villa%20Adelina!5e0!3m2!1ses-419!2sar!4v1654662682110!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="contacto-mapa"></iframe>
+        
     </section>    
 
     <section class="main-contacto-2">
-        <p class="contacto-texto-2">
+        <p class="contacto-texto-2 text-center">
             O podés dejarnos tus datos de contacto y nos comunicaremos a la brevedad:
         </p>
 
-        <!-- Como aún no se usar formularios, improvisé cómo se vería para poder ir visualizando la idea -->
+        <!-- Para la próxima entega de este trabajo final, implementaré los forms de Bootstrap -->
 
         <div class="nombre">
             <p class="nombre-texto">
@@ -99,7 +141,7 @@
 
 
     <!-- FOOTER -->
-    <footer>
+    <!-- <footer>
         <div class="footer-container">
 
             <div class="redes-sociales"> 
@@ -114,7 +156,7 @@
                 </div>
             </div>
 
-        <!-- logo -->
+        
             <a href="../index.html"><img src="../multimedia/logo.jpg" alt="logo" class="footer-logo" >
             </a>
         
@@ -132,8 +174,9 @@
                 </p>
             </div>
         </div>
-    </footer>
+    </footer> -->
 
     <!-- FIN FOOTER -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>
