@@ -149,7 +149,7 @@ body{
 
 
 .noticia-1-imagen{
-    width: 60vw; 
+    width: 40vw; 
 }
 
 .noticia-1-texto{
@@ -167,7 +167,7 @@ body{
 }
 
 .noticia-2-imagen{
-    width: 60vw;
+    width: 40vw;
 }
 
 .noticia-2-texto{
@@ -185,7 +185,7 @@ body{
 
 
 .noticia-3-imagen{
-    width: 60vw;
+    width: 40vw;
 }
 
 .noticia-3-texto{
@@ -412,10 +412,10 @@ body{
 
 .noticias-imagen-1{
     width: 30vw;
-    height: 20vh;
+    height: 30vh;
 }
 .noticias-texto-1{
-    width: 60vw;
+    width: 50vw;
     font-size: 20px;
     font-family: 'Kanit', sans-serif;
     color: aliceblue;
@@ -433,11 +433,11 @@ body{
 }
 
 .noticias-imagen-2{
-    width: 40vw;
-    height: 20vh;
+    width: 30vw;
+    height: 30vh;
 }
 .noticias-texto-2{
-    width: 60vw;
+    width: 50vw;
     font-size: 20px;
     font-family: 'Kanit', sans-serif;
     color: aliceblue;
@@ -455,11 +455,11 @@ body{
 }
 
 .noticias-imagen-3{
-    width: 20vw;
-    height: 20vh;
+    width: 30vw;
+    height: 30vh;
 }
 .noticias-texto-3{
-    width: 60vw;
+    width: 50vw;
     font-size: 20px;
     font-family: 'Kanit', sans-serif;
     color: aliceblue;
