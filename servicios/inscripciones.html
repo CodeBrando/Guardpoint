@@ -74,10 +74,8 @@
     </section>
 
     <section class="main-inscripcion-2">
-        
-        <!-- Para la próxima entega de este trabajo final, implementaré los forms de Bootstrap -->
-
-        <div class="nombre">
+        <!-- <div class="nombre">
+            
             <p class="nombre-texto">
                 Nombre:
             </p>
@@ -117,8 +115,42 @@
                 Importe:
             </p>
             <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" target="_blank" class="importe-link">Importe</a>
-        </div>
-        
+        </div> -->
+        <form>
+            
+            <div class="mb-3 nombre">
+              <label for="exampleInputPassword1" class="form-label nombre-texto">Nombre</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3 apellido">
+                <label for="exampleInputPassword1" class="form-label apellido-texto">Apellido</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+              </div>
+            <div class="mb-3 telefono">
+                <label for="exampleInputPassword1" class="form-label telefono-texto">Teléfono</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+              </div>
+              <div class="mb-3 mail">
+                <label for="exampleInputEmail1" class="form-label mail-texto">Mail</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">Nunca compartiremos esto con nadie.</div>
+              </div>
+              <div class="dropdown metodo">
+                <a class="btn --bs-btn-color:rgba(172, 255, 47, 0.842) dropdown-toggle metodo-texto" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                  Método de pago
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                  <li><a class="dropdown-item" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley">Efectivo</a></li>
+                  <li><a class="dropdown-item" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley">Crédito</a></li>
+                  <li><a class="dropdown-item" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley">Transferencia</a></li>
+                </ul>
+            </div>
+            <button type="submit" class="btn btn-primary mt-5">Submit</button>
+            <!-- <div class="mb-3 importe">
+                <label for="exampleInputPassword1" class="form-label importe-texto">Importe</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+            </div> -->
+          </form>
     </section>
 
 

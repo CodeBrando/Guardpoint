@@ -657,27 +657,35 @@ body{
 
 .main-inscripcion-2{
     display: flex;
-    height: 60vh;
+    height: 20vh;
     align-items: flex-start;
-    margin-top: 100px;
-    margin-bottom: 50px;
+    margin-top: 10vh;
+    margin-bottom: 55vh;
     margin-left: 12%;
     flex-flow: column wrap;
 }
-.metodo{
+/* .metodo{
     font-size:  3vh;
     padding-top: 3%;
     padding-left: 3%;
     font-family: 'Bebas Neue', cursive;
     color: aliceblue;
 
-}
-.importe{
+} */
+/* .importe{
     font-size:  3vh;
     padding-top: 3%;
     padding-left: 3%;
     font-family: 'Bebas Neue', cursive;
     color: aliceblue;
+} */
+
+.btn{
+    background-color: rgba(172, 255, 47, 0.842) !important;
+}
+
+.form-text{
+    color: aliceblue !important;
 }
 
 .main-inscripcion-2 a{
@@ -1278,10 +1286,10 @@ body{
 
 .main-inscripcion-2{
     display: flex;
-    height: 60vh;
+    height: 40vh;
     align-items: flex-start;
     margin-top: 10vh;
-    margin-bottom: 5vh;
+    margin-bottom: 55vh;
     margin-left: 12%;
     flex-flow: column wrap;
 }

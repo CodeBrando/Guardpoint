@@ -107,9 +107,9 @@
             O podés dejarnos tus datos de contacto y nos comunicaremos a la brevedad:
         </p>
 
-        <!-- Para la próxima entega de este trabajo final, implementaré los forms de Bootstrap -->
+        
 
-        <div class="nombre">
+        <!-- <div class="nombre">
             <p class="nombre-texto">
                 Nombre:
             </p>
@@ -135,7 +135,29 @@
                 Mail:
             </p>
             <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" target="_blank" class="mail-link">Mail</a>
-        </div>
+        </div> -->
+
+        <form>
+            
+            <div class="mb-3 nombre">
+              <label for="exampleInputPassword1" class="form-label nombre-texto">Nombre</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3 apellido">
+                <label for="exampleInputPassword1" class="form-label apellido-texto">Apellido</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+              </div>
+            <div class="mb-3 telefono">
+                <label for="exampleInputPassword1" class="form-label telefono-texto">Teléfono</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+              </div>
+              <div class="mb-3 mail">
+                <label for="exampleInputEmail1" class="form-label mail-texto">Mail</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">Nunca compartiremos esto con nadie.</div>
+              </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
         
     </section>
 
