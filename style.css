@@ -245,6 +245,7 @@ body{
     }
 }
 
+
 .proximo-evento{
     display: flex;
     width: 80%;
@@ -278,6 +279,7 @@ body{
     justify-content: center;
     text-align: center;
     font-size: 25px;
+    
 }
 .mas-info-link{
     text-decoration: none;
@@ -293,11 +295,12 @@ body{
     background-color: rgba(172, 255, 47, 0.842);
     height: 15vh;
     align-items: center;
+    
 }
 
 
 .twitter-icon{
-    width: 30px;
+    width: 3vw;
 }
 .twitter-link{
     text-decoration: none;
@@ -305,15 +308,20 @@ body{
     font-family: 'Bebas Neue', cursive;
 }
 .instagram-icon{
-    width: 30px
+    width: 3vw
 }
 .instagram-link{
     text-decoration: none;
     color: rgb(41, 34, 34);
     font-family: 'Bebas Neue', cursive;
 }
+
+.footer-logo-container{
+    
+    margin-left: 5vw;
+}
 .footer-logo{
-    width: 55px
+    width: 5vw;
 }
 
 .footer-logo:hover{
@@ -771,7 +779,7 @@ body{
         display: flex;
         justify-content: center;
         align-items: center;
-        padding-top: 2vh;
+        padding-top: 4vh;
         margin-top: 10vh;
         background-color: rgba(172, 255, 47, 0.842);
         height: 15vh;
@@ -779,7 +787,7 @@ body{
     
     
     .titulo-pagina-2{
-        font-size: 7vh;
+        font-size: 6.5vh;
         font-family: 'Bebas Neue', cursive;
         align-items: center;
     }
@@ -865,7 +873,7 @@ body{
         display: flex;
         justify-content: center;
         align-items: center;
-        padding-top: 2vh;
+        padding-top: 4vh;
         margin-top: 10vh;
         background-color: rgba(172, 255, 47, 0.842);
         height: 15vh;
@@ -873,7 +881,7 @@ body{
     
     
     .titulo-pagina-3{
-        font-size: 7vh;
+        font-size: 6.5vh;
         font-family: 'Bebas Neue', cursive;
         align-items: center;
     }
