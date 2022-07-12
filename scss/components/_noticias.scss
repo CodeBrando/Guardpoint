@@ -1,9 +1,12 @@
+@import '../base/colors';
+
+
 /* ESTILO PARA NOTICIAS */
 
 .titulo-noticias{
     display: flex;
     justify-content: center;
-    background-color: rgba(172, 255, 47, 0.842);
+    background-color: $colorPrincipal;
     margin-top: 30px;
 }
 
@@ -25,7 +28,7 @@
     grid-template-rows: 300px 300px;
     grid-template-columns: 2fr 1fr;
     gap: 10px;
-    /* border: 2px red solid; */
+    
 }
 
 
@@ -86,11 +89,11 @@
     width: 50vw;
     font-size: 20px;
     font-family: 'Kanit', sans-serif;
-    color: aliceblue;
+    color: $colorTexto;
 }
 .noticias-texto-1 a{
     text-decoration: none;
-    color: rgba(172, 255, 47, 0.842);
+    color: $colorPrincipal;
     font-family: 'Kanit', sans-serif;
 }
 
@@ -108,11 +111,11 @@
     width: 50vw;
     font-size: 20px;
     font-family: 'Kanit', sans-serif;
-    color: aliceblue;
+    color: $colorTexto;
 }
 .noticias-texto-2 a{
     text-decoration: none;
-    color: rgba(172, 255, 47, 0.842);
+    color: $colorPrincipal;
     font-family: 'Kanit', sans-serif;
 }
 
@@ -130,11 +133,11 @@
     width: 50vw;
     font-size: 20px;
     font-family: 'Kanit', sans-serif;
-    color: aliceblue;
+    color: $colorTexto;
 }
 .noticias-texto-3 a{
     text-decoration: none;
-    color: rgba(172, 255, 47, 0.842);
+    color: $colorPrincipal;
     font-family: 'Kanit', sans-serif;
 }
 
@@ -144,7 +147,7 @@
 .titulo-noticias{
     display: flex;
     justify-content: center;
-    background-color: rgba(172, 255, 47, 0.842);
+    background-color: $colorPrincipal;
     margin-top: 20px;
 }
 
@@ -166,7 +169,7 @@
     grid-template-rows: 150px 150px;
     grid-template-columns: 2fr 1fr;
     gap: 10px;
-    /* border: 2px red solid; */
+    
 }
 
 
@@ -216,12 +219,12 @@
     width: 60vw;
     font-size: 3vh;
     font-family: 'Kanit', sans-serif;
-    color: aliceblue;
+    color: $colorTexto;
     
 }
 .noticias-texto-1 a{
     text-decoration: none;
-    color: rgba(172, 255, 47, 0.842);
+    color: $colorPrincipal;
     font-family: 'Kanit', sans-serif;
 }
 
@@ -240,11 +243,11 @@
     width: 60vw;
     font-size: 3vh;
     font-family: 'Kanit', sans-serif;
-    color: aliceblue;
+    color: $colorTexto;
 }
 .noticias-texto-2 a{
     text-decoration: none;
-    color: rgba(172, 255, 47, 0.842);
+    color: $colorPrincipal;
     font-family: 'Kanit', sans-serif;
 }
 
@@ -264,11 +267,11 @@
     width: 60vw;
     font-size: 20px;
     font-family: 'Kanit', sans-serif;
-    color: aliceblue;
+    color: $colorTexto;
 }
 .noticias-texto-3 a{
     text-decoration: none;
-    color: rgba(172, 255, 47, 0.842);
+    color: $colorPrincipal;
     font-family: 'Kanit', sans-serif;
 }
 }

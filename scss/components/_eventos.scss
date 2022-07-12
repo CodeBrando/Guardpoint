@@ -1,8 +1,10 @@
+@import '../base/colors';
+
 /* ESTILO PARA EVENTOS */
 .titulo-eventos{
     display: flex;
     justify-content: center;
-    background-color: rgba(172, 255, 47, 0.842);
+    background-color: $colorPrincipal;
     margin-top: 30px;
 }
 
@@ -30,7 +32,7 @@
     padding-left: 3%;
     font-family: 'Bebas Neue', cursive;
     align-items: center;
-    color: aliceblue;
+    color: $colorTexto;
 }
 
 .inscribite{
@@ -41,7 +43,7 @@
 }
 .inscribite-link{
     text-decoration: none;
-    color: rgba(172, 255, 47, 0.842);
+    color: $colorPrincipal;
     font-family: 'Bebas Neue', cursive;
     text-decoration: none;
     border: 2px white solid;
@@ -53,7 +55,7 @@
 .titulo-eventos{
     display: flex;
     justify-content: center;
-    background-color: rgba(172, 255, 47, 0.842);
+    background-color: $colorPrincipal;
     margin-top: 2vh;
 }
 
@@ -84,7 +86,7 @@
     padding-left: 3%;
     font-family: 'Bebas Neue', cursive;
     text-align: center;
-    color: aliceblue;
+    color: $colorTexto;
 }
 
 .inscribite{
@@ -95,7 +97,7 @@
 }
 .inscribite-link{
     text-decoration: none;
-    color: rgba(172, 255, 47, 0.842);
+    color: $colorPrincipal;
     font-family: 'Bebas Neue', cursive;
     text-decoration: none;
     border: 2px white solid;

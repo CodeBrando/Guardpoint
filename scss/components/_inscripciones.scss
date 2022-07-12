@@ -1,8 +1,10 @@
+@import '../base/colors';
+
 /* ESTILOS PARA INSCRIPCION */
 .titulo-inscripcion{
     display: flex;
     justify-content: center;
-    background-color: rgba(172, 255, 47, 0.842);
+    background-color: $colorPrincipal;
     margin-top: 1vh;
 }
 
@@ -28,7 +30,7 @@
     padding-left: 3%;
     font-family: 'Bebas Neue', cursive;
     
-    color: aliceblue;
+    color: $colorTexto;
     
 }
 
@@ -46,7 +48,7 @@
     padding-top: 3%;
     padding-left: 3%;
     font-family: 'Bebas Neue', cursive;
-    color: aliceblue;
+    color: $colorTexto;
 
 } */
 /* .importe{
@@ -54,15 +56,15 @@
     padding-top: 3%;
     padding-left: 3%;
     font-family: 'Bebas Neue', cursive;
-    color: aliceblue;
+    color: $colorTexto;
 } */
 
 .btn{
-    background-color: rgba(172, 255, 47, 0.842) !important;
+    background-color: $colorPrincipal !important;
 }
 
 .form-text{
-    color: aliceblue !important;
+    color: $colorTexto !important;
 }
 
 .main-inscripcion-2 a{
@@ -81,7 +83,7 @@
     display: flex;
     justify-content: center;
     padding-top: 2vh;
-    background-color: rgba(172, 255, 47, 0.842);
+    background-color: $colorPrincipal;
     margin-top: 20px;
 }
 
@@ -107,7 +109,7 @@
     padding-left: 3%;
     font-family: 'Bebas Neue', cursive;
     
-    color: aliceblue;
+    color: $colorTexto;
     
 }
 
@@ -125,7 +127,7 @@
     padding-top: 3%;
     padding-left: 3%;
     font-family: 'Bebas Neue', cursive;
-    color: aliceblue;
+    color: $colorTexto;
 
 }
 .importe{
@@ -133,7 +135,7 @@
     padding-top: 3%;
     padding-left: 3%;
     font-family: 'Bebas Neue', cursive;
-    color: aliceblue;
+    color: $colorTexto;
 }
 
 .main-inscripcion-2 a{

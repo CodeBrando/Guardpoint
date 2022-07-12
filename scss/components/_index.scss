@@ -1,3 +1,6 @@
+@import '../base/colors';
+
+
 /* ESTILO PARA EL INDEX*/
 
 .banner-imagen{
@@ -5,42 +8,14 @@
 }
 
 .cabecera{
-    background-color: rgba(172, 255, 47, 0.842);
+    background-color: $colorPrincipal;
     position: sticky;
     top: 0px;
 }
 
-/* .cabecera__lista{
-    height: 10vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-}
-.cabecera__lista a{
-    text-decoration: none;
-    color: aliceblue;
-    font-family: 'Bebas Neue', cursive;
-}
-
-
-.cabecera__lista__items{
-    list-style: none;
-    font-size: 30px;
-}
- 
-.cabecera__logo{
-    width: 55px;   
-}
-
-.cabecera__logo:hover{
-    transform: rotate(360deg) scale(1.5);
-    transition: all 1s;
-} */
-
 .nav-link{
     text-decoration: none;
-    color: aliceblue !important;
+    color: $colorTexto !important;
     font-family: 'Bebas Neue', cursive;
     display: inline !important;
 }
@@ -66,13 +41,13 @@
     // padding-top: 11%;
     padding-left: 4% ;
     font-family: 'Bebas Neue', cursive;
-    color: aliceblue;
+    color: $colorTexto;
 }
 
 .titulo{
     display: flex;
     justify-content: center;
-    background-color: rgba(172, 255, 47, 0.842);
+    background-color: $colorPrincipal;
 }
 
 
@@ -88,7 +63,7 @@
     display: flex;
     justify-content: center;
     margin-top: 10vh;
-    background-color: rgba(172, 255, 47, 0.842);
+    background-color: $colorPrincipal;
 }
 
 .titulo-pagina-2{
@@ -104,7 +79,7 @@
         display: flex;
         justify-content: center;
         margin-top: 10vh;
-        background-color: rgba(172, 255, 47, 0.842);
+        background-color: $colorPrincipal;
     }
 
     .titulo-pagina-2{
@@ -136,14 +111,14 @@
 .noticia-1-texto{
     font-size: 2vh;
     font-family: 'Kanit', sans-serif;
-    color: aliceblue;
+    color: $colorTexto;
     width: 100%;
 
 }
 
 .noticia-1-texto a{
     text-decoration: none;
-    color: rgba(172, 255, 47, 0.842);
+    color: $colorPrincipal;
     font-family: 'Kanit', sans-serif;
 }
 
@@ -155,12 +130,12 @@
     width: 100%;
     font-size: 2vh;
     font-family: 'Kanit', sans-serif;
-    color: aliceblue;
+    color: $colorTexto;
 }
 
 .noticia-2-texto a{
     text-decoration: none;
-    color: rgba(172, 255, 47, 0.842);
+    color: $colorPrincipal;
     font-family: 'Kanit', sans-serif;
 }
 
@@ -173,12 +148,12 @@
     width: 100%;
     font-size: 2vh;
     font-family: 'Kanit', sans-serif;
-    color: aliceblue;
+    color: $colorTexto;
 }
 
 .noticia-3-texto a{
     text-decoration: none;
-    color: rgba(172, 255, 47, 0.842);
+    color: $colorPrincipal;
     font-family: 'Kanit', sans-serif;
 }
 
@@ -190,7 +165,7 @@
 }
 .mas-noticias-link{
     text-decoration: none;
-    color: rgba(172, 255, 47, 0.842);
+    color: $colorPrincipal;
     font-family: 'Bebas Neue', cursive;
     border: 2px white solid;
     padding: 4px 4px;
@@ -199,7 +174,7 @@
     display: flex;
     justify-content: center;
     margin-top: 10vh;
-    background-color: rgba(172, 255, 47, 0.842);
+    background-color: $colorPrincipal;
 }
 
 
@@ -216,7 +191,7 @@
         display: flex;
         justify-content: center;
         margin-top: 10vh;
-        background-color: rgba(172, 255, 47, 0.842);
+        background-color: $colorPrincipal;
     }
 
     .titulo-pagina-3{
@@ -245,15 +220,15 @@
     padding-top: 11%;
     padding-left: 3%;
     font-family: 'Bebas Neue', cursive;
-    color: aliceblue;
+    color: $colorTexto;
 }
 .proximo-evento-texto a{
     text-decoration: none;
-    color: rgba(172, 255, 47, 0.842);
+    color: $colorPrincipal;
     font-family: 'Bebas Neue', cursive;
 }
 .proximo-evento-imagen a{
-    color: rgba(172, 255, 47, 0.842);
+    color: $colorPrincipal;
 }
 .mas-info{
     margin: 10vh 0vh 10vh 0vh;
@@ -264,7 +239,7 @@
 }
 .mas-info-link{
     text-decoration: none;
-    color: rgba(172, 255, 47, 0.842);
+    color: $colorPrincipal;
     font-family: 'Bebas Neue', cursive;
     border: 2px white solid;
     padding: 4px 4px;
@@ -273,7 +248,7 @@
 .footer-container{
     display: flex;
     justify-content: space-between;
-    background-color: rgba(172, 255, 47, 0.842);
+    background-color: $colorPrincipal;
     height: 15vh;
     align-items: center;
     
@@ -330,7 +305,7 @@
     }
     
     .cabecera{
-        background-color: rgba(172, 255, 47, 0.842);
+        background-color: $colorPrincipal;
         position: sticky;
         top: 0px;
         
@@ -347,7 +322,7 @@
     }
     .cabecera__lista a{
         text-decoration: none;
-        color: aliceblue;
+        color: $colorTexto;
         font-family: 'Bebas Neue', cursive;
     }
     
@@ -379,13 +354,13 @@
         // padding-top: 11%;
         padding-right: 5%;
         font-family: 'Bebas Neue', cursive;
-        color: aliceblue;
+        color: $colorTexto;
     }
     
     .titulo{
         display: flex;
         justify-content: center;
-        background-color: rgba(172, 255, 47, 0.842);
+        background-color: $colorPrincipal;
     }
     
     
@@ -402,7 +377,7 @@
         align-items: center;
         padding-top: 4vh;
         margin-top: 10vh;
-        background-color: rgba(172, 255, 47, 0.842);
+        background-color: $colorPrincipal;
         height: 15vh;
     }
     
@@ -432,13 +407,13 @@
         width: 100%;
         font-size: 3vh;
         font-family: 'Kanit', sans-serif;
-        color: aliceblue;
+        color: $colorTexto;
         text-align: center;
     }
 
     .noticia-1-texto a{
         text-decoration: none;
-        color: rgba(172, 255, 47, 0.842);
+        color: $colorPrincipal;
         font-family: 'Kanit', sans-serif;
     }
 
@@ -450,12 +425,12 @@
         width: 100%;
         font-size: 3vh;
         font-family: 'Kanit', sans-serif;
-        color: aliceblue;
+        color: $colorTexto;
         text-align: center;
     }
     .noticia-2-texto a{
         text-decoration: none;
-        color: rgba(172, 255, 47, 0.842);
+        color: $colorPrincipal;
         font-family: 'Kanit', sans-serif;
     }
     
@@ -467,13 +442,13 @@
         width: 100%;
         font-size: 3vh;
         font-family: 'Kanit', sans-serif;
-        color: aliceblue;
+        color: $colorTexto;
         text-align: center;
     }
 
     .noticia-3-texto a{
         text-decoration: none;
-        color: rgba(172, 255, 47, 0.842);
+        color: $colorPrincipal;
         font-family: 'Kanit', sans-serif;
     }
     
@@ -485,7 +460,7 @@
     }
     .mas-noticias-link{
         text-decoration: none;
-        color: rgba(172, 255, 47, 0.842);
+        color: $colorPrincipal;
         font-family: 'Bebas Neue', cursive;
         border: 2px white solid;
         padding: 4px 4px;
@@ -496,7 +471,7 @@
         align-items: center;
         padding-top: 4vh;
         margin-top: 10vh;
-        background-color: rgba(172, 255, 47, 0.842);
+        background-color: $colorPrincipal;
         height: 15vh;
     }
     
@@ -527,15 +502,15 @@
         padding-top: 11%;
         
         font-family: 'Bebas Neue', cursive;
-        color: aliceblue;
+        color: $colorTexto;
     }
     .proximo-evento-texto a{
         text-decoration: none;
-        color: rgba(172, 255, 47, 0.842);
+        color: $colorPrincipal;
         font-family: 'Bebas Neue', cursive;
     }
     .proximo-evento-imagen a{
-        color: rgba(172, 255, 47, 0.842);
+        color: $colorPrincipal;
     }
     .mas-info{
         margin: 10vh 0vh 10vh 0vh;
@@ -545,7 +520,7 @@
     }
     .mas-info-link{
         text-decoration: none;
-        color: rgba(172, 255, 47, 0.842);
+        color: $colorPrincipal;
         font-family: 'Bebas Neue', cursive;
         border: 2px white solid;
         padding: 4px 4px;
@@ -554,7 +529,7 @@
     .footer-container{
         display: flex;
         justify-content: space-between;
-        background-color: rgba(172, 255, 47, 0.842);
+        background-color: $colorPrincipal;
         height: 10vh;
         align-items: center;
     }
