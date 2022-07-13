@@ -1,0 +1,25 @@
+@mixin latido($vacio){
+    /* animación placeholder*/
+    transform: $vacio;
+    transition: $vacio;
+}
+
+
+
+.footer-logo:hover{
+    @include latido(rotate(360deg) scale(1.5));
+}
+
+.footer-logo:hover{
+    @include latido(all 1s);
+}
+
+
+.navbar-brand:hover{
+    @include latido(rotate(360deg) scale(1.5));
+}
+
+.navbar-brand:hover{
+    @include latido(all 1s);
+}
+

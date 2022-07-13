@@ -1,6 +1,7 @@
 @import '../base/colors';
 @import '../base/fonts';
 @import '../base/extends';
+@import '../base/mixins';
 
 
 /* ESTILO PARA EL INDEX*/
@@ -260,10 +261,11 @@
     width: 5vw;
 }
 
-.footer-logo:hover{
-    transform: rotate(360deg) scale(1.5);
-    transition: all 1s;
-}
+// .footer-logo:hover{
+//     /* animación placeholder*/
+//     transform: rotate(360deg) scale(1.5);
+//     transition: all 1s;
+// }
 
 
 .datos-contacto{
@@ -291,30 +293,6 @@
         
     }
     
-    /* .cabecera__lista{
-        height: 10vh;
-        
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        align-items: center;
-        flex-wrap: wrap;
-    }
-    .cabecera__lista a{
-        text-decoration: none;
-        color: $colorTexto;
-        font-family: $fontBebas;
-    }
-    
-    
-    .cabecera__lista__items{
-        list-style: none;
-        font-size: 20px;
-    }
-     
-    .cabecera__logo{
-        width: 40px;   
-    } */
     .presentacion{
         width: 100%;
         height: 100%;

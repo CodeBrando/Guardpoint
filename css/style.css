@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kanit&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kanit&family=Nunito:ital,wght@1,200&display=swap");
 .mas-info-link, .mas-noticias-link {
@@ -6,6 +7,30 @@
   font-family: "Bebas Neue", cursive;
   border: 2px white solid;
   padding: 4px 4px;
+}
+
+.footer-logo:hover {
+  /* animación placeholder*/
+  transform: rotate(360deg) scale(1.5);
+  transition: rotate(360deg) scale(1.5);
+}
+
+.footer-logo:hover {
+  /* animación placeholder*/
+  transform: all 1s;
+  transition: all 1s;
+}
+
+.navbar-brand:hover {
+  /* animación placeholder*/
+  transform: rotate(360deg) scale(1.5);
+  transition: rotate(360deg) scale(1.5);
+}
+
+.navbar-brand:hover {
+  /* animación placeholder*/
+  transform: all 1s;
+  transition: all 1s;
 }
 
 /* ESTILO PARA EL INDEX*/
@@ -249,11 +274,6 @@
   width: 5vw;
 }
 
-.footer-logo:hover {
-  transform: rotate(360deg) scale(1.5);
-  transition: all 1s;
-}
-
 .datos-contacto {
   font-family: "Kanit", sans-serif;
   height: 100%;
@@ -273,30 +293,6 @@
     position: sticky;
     top: 0px;
   }
-  /* .cabecera__lista{
-      height: 10vh;
-
-      display: flex;
-      flex-direction: row;
-      justify-content: space-evenly;
-      align-items: center;
-      flex-wrap: wrap;
-  }
-  .cabecera__lista a{
-      text-decoration: none;
-      color: $colorTexto;
-      font-family: $fontBebas;
-  }
-
-
-  .cabecera__lista__items{
-      list-style: none;
-      font-size: 20px;
-  }
-
-  .cabecera__logo{
-      width: 40px;   
-  } */
   .presentacion {
     width: 100%;
     height: 100%;
@@ -1115,6 +1111,30 @@ body {
   font-family: "Bebas Neue", cursive;
   border: 2px white solid;
   padding: 4px 4px;
+}
+
+.footer-logo:hover {
+  /* animación placeholder*/
+  transform: rotate(360deg) scale(1.5);
+  transition: rotate(360deg) scale(1.5);
+}
+
+.footer-logo:hover {
+  /* animación placeholder*/
+  transform: all 1s;
+  transition: all 1s;
+}
+
+.navbar-brand:hover {
+  /* animación placeholder*/
+  transform: rotate(360deg) scale(1.5);
+  transition: rotate(360deg) scale(1.5);
+}
+
+.navbar-brand:hover {
+  /* animación placeholder*/
+  transform: all 1s;
+  transition: all 1s;
 }
 
 /*# sourceMappingURL=style.css.map */
