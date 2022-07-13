@@ -1,4 +1,5 @@
 @import '../base/colors';
+@import '../base/fonts';
 
 /* ESTILOS PARA CONTACTO */
 .titulo-contacto{
@@ -12,7 +13,7 @@
 .titulo-pagina-contacto{
     height: 15vh;
     font-size: 10vh;
-    font-family: 'Bebas Neue', cursive;
+    font-family: $fontBebas;
     padding-top: 2vh;
 }
 
@@ -22,12 +23,11 @@
     margin-top: 100px;
     margin-bottom: 50px;
 }
+
 .contacto-texto{
     font-size:  30px;
     padding-top: 3%;
-    padding-left: 3%;
-    font-family: 'Bebas Neue', cursive;
-    align-items: center;
+    font-family: $fontBebas;
     color: $colorTexto;
 }
 
@@ -41,7 +41,7 @@
 .contacto-texto-2{
     font-size:  30px;
     padding-top: 3%;
-    font-family: 'Bebas Neue', cursive;
+    font-family: $fontBebas;
     align-items: center;
     color: $colorTexto;
     
@@ -51,7 +51,7 @@
     font-size:  3vh;
     padding-top: 3%;
     padding-left: 3%;
-    font-family: 'Bebas Neue', cursive;
+    font-family: $fontBebas;
     align-items: center;
     color: $colorTexto;
 }
@@ -59,7 +59,7 @@
     font-size:  3vh;
     padding-top: 3%;
     padding-left: 3%;
-    font-family: 'Bebas Neue', cursive;
+    font-family: $fontBebas;
     align-items: center;
     color: $colorTexto;
 }
@@ -67,7 +67,7 @@
     font-size:  3vh;
     padding-top: 3%;
     padding-left: 3%;
-    font-family: 'Bebas Neue', cursive;
+    font-family: $fontBebas;
     align-items: center;
     color: $colorTexto;
 }
@@ -75,106 +75,90 @@
     font-size:  3vh;
     padding-top: 3%;
     padding-left: 3%;
-    font-family: 'Bebas Neue', cursive;
+    font-family: $fontBebas;
     align-items: center;
     color: $colorTexto;
 }
 
-.main-contacto-2 a{
-    text-decoration: none;
-    font-size: 20px;
-    color: rgba(141, 141, 141, 0.418);
-    font-family: 'Nunito', sans-serif;
-    text-decoration: none;
-    border: 1px rgba(255, 255, 255, 0.24) solid;
-    padding: 4px 4px;
-}
 
-@media only screen and (min-width:481px) and (max-width: 525px) {
+
+@media only screen and (min-width:360px) and (max-width: 525px) {
     /* ESTILOS PARA CONTACTO MOBILE*/
-.titulo-contacto{
-    display: flex;
-    justify-content: center;
-    background-color: $colorPrincipal;
-    margin-top: 1vh;
-}
+    .titulo-contacto{
+        display: flex;
+        justify-content: center;
+        background-color: $colorPrincipal;
+        margin-top: 1vh;
+    }
 
 
-.titulo-pagina-contacto{
-    height: 15vh;
-    font-size: 10vh;
-    font-family: 'Bebas Neue', cursive;
-    padding-top: 2vh;
-}
+    .titulo-pagina-contacto{
+        height: 15vh;
+        font-size: 10vh;
+        font-family: $fontBebas;
+        padding-top: 2vh;
+    }
 
-.main-contacto{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    margin-top: 2vh;
-    margin-bottom: 3vh;
-}
-.contacto-mapa{
-    width: 100%;
+    .main-contacto{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 2vh;
+        margin-bottom: 3vh;
+    }
+    .contacto-mapa{
+        width: 100%;
 
-}
-.contacto-texto{
-    font-size:  3vh;
-    padding-top: 3%;
-    font-family: 'Bebas Neue', cursive;
-    align-items: center;
-    color: $colorTexto;
-}
+    }
+    .contacto-texto{
+        font-size:  3vh;
+        padding-top: 3%;
+        font-family: $fontBebas;
+        align-items: center;
+        color: $colorTexto;
+    }
 
-.main-contacto-2{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 5vh;
-    margin-bottom: 5vh;
-    
-}
-.contacto-texto-2{
-    font-size:  3vh;
-    padding-top: 3%;
-    font-family: 'Bebas Neue', cursive;
-    color: $colorTexto;
-    text-align: center;
-}
+    .main-contacto-2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+        
+    }
+    .contacto-texto-2{
+        font-size:  3vh;
+        padding-top: 3%;
+        font-family: $fontBebas;
+        color: $colorTexto;
+        text-align: center;
+    }
 
-.nombre{
-    font-size:  3vh;
-    padding-top: 3%;
-    font-family: 'Bebas Neue', cursive;
-    color: $colorTexto;
-}
-.apellido{
-    font-size:  3vh;
-    padding-top: 3%;
-    font-family: 'Bebas Neue', cursive;
-    color: $colorTexto;
-}
-.telefono{
-    font-size:  3vh;
-    padding-top: 3%;
-    font-family: 'Bebas Neue', cursive;
-    color: $colorTexto;
-}
-.mail{
-    font-size:  3vh;
-    padding-top: 3%;
-    font-family: 'Bebas Neue', cursive;
-    color: $colorTexto;
-}
+    .nombre{
+        font-size:  3vh;
+        padding-top: 3%;
+        font-family: $fontBebas;
+        color: $colorTexto;
+    }
+    .apellido{
+        font-size:  3vh;
+        padding-top: 3%;
+        font-family: $fontBebas;
+        color: $colorTexto;
+    }
+    .telefono{
+        font-size:  3vh;
+        padding-top: 3%;
+        font-family: $fontBebas;
+        color: $colorTexto;
+    }
+    .mail{
+        font-size:  3vh;
+        padding-top: 3%;
+        font-family: $fontBebas;
+        color: $colorTexto;
+    }
 
-.main-contacto-2 a{
-    text-decoration: none;
-    font-size: 20px;
-    color: rgba(141, 141, 141, 0.418);
-    font-family: 'Nunito', sans-serif;
-    text-decoration: none;
-    border: 1px rgba(255, 255, 255, 0.24) solid;
-    padding: 4px 4px;
-}
+
 }

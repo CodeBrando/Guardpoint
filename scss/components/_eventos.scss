@@ -1,4 +1,5 @@
 @import '../base/colors';
+@import '../base/fonts';
 
 /* ESTILO PARA EVENTOS */
 .titulo-eventos{
@@ -12,7 +13,7 @@
 .titulo-pagina-eventos{
     height: 15vh;
     font-size: 10vh;
-    font-family: 'Bebas Neue', cursive;
+    font-family: $fontBebas;
     padding-top: 2vh;
 }
 
@@ -30,7 +31,7 @@
     font-size:  30px;
     padding-top: 3%;
     padding-left: 3%;
-    font-family: 'Bebas Neue', cursive;
+    font-family: $fontBebas;
     align-items: center;
     color: $colorTexto;
 }
@@ -44,7 +45,7 @@
 .inscribite-link{
     text-decoration: none;
     color: $colorPrincipal;
-    font-family: 'Bebas Neue', cursive;
+    font-family: $fontBebas;
     text-decoration: none;
     border: 2px white solid;
     padding: 4px 4px;
@@ -63,7 +64,7 @@
 .titulo-pagina-eventos{
     height: 15vh;
     font-size: 10vh;
-    font-family: 'Bebas Neue', cursive;
+    font-family: $fontBebas;
     padding-top: 2vh;
 }
 
@@ -84,7 +85,7 @@
     font-size:  30px;
     padding-top: 3%;
     padding-left: 3%;
-    font-family: 'Bebas Neue', cursive;
+    font-family: $fontBebas;
     text-align: center;
     color: $colorTexto;
 }
@@ -98,7 +99,7 @@
 .inscribite-link{
     text-decoration: none;
     color: $colorPrincipal;
-    font-family: 'Bebas Neue', cursive;
+    font-family: $fontBebas;
     text-decoration: none;
     border: 2px white solid;
     padding: 4px 4px;

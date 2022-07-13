@@ -1,4 +1,5 @@
 @import '../base/colors';
+@import '../base/fonts';
 
 
 /* ESTILO PARA NOTICIAS */
@@ -14,7 +15,7 @@
 .titulo-pagina-noticias{
     height: 15vh;
     font-size: 10vh;
-    font-family: 'Bebas Neue', cursive;
+    font-family: $fontBebas; 
     padding-top: 2vh;
 }
 
@@ -88,13 +89,13 @@
 .noticias-texto-1{
     width: 50vw;
     font-size: 20px;
-    font-family: 'Kanit', sans-serif;
+    font-family: $fontKanit;
     color: $colorTexto;
 }
 .noticias-texto-1 a{
     text-decoration: none;
     color: $colorPrincipal;
-    font-family: 'Kanit', sans-serif;
+    font-family: $fontKanit;
 }
 
 .noticias-items-2{
@@ -110,13 +111,13 @@
 .noticias-texto-2{
     width: 50vw;
     font-size: 20px;
-    font-family: 'Kanit', sans-serif;
+    font-family: $fontKanit;
     color: $colorTexto;
 }
 .noticias-texto-2 a{
     text-decoration: none;
     color: $colorPrincipal;
-    font-family: 'Kanit', sans-serif;
+    font-family: $fontKanit;
 }
 
 .noticias-items-3{
@@ -132,13 +133,13 @@
 .noticias-texto-3{
     width: 50vw;
     font-size: 20px;
-    font-family: 'Kanit', sans-serif;
+    font-family: $fontKanit;
     color: $colorTexto;
 }
 .noticias-texto-3 a{
     text-decoration: none;
     color: $colorPrincipal;
-    font-family: 'Kanit', sans-serif;
+    font-family: $fontKanit;
 }
 
 @media only screen and (min-width:481px) and (max-width: 525px) {
@@ -155,7 +156,7 @@
 .titulo-pagina-noticias{
     height: 15vh;
     font-size: 10vh;
-    font-family: 'Bebas Neue', cursive;
+    font-family: $fontBebas;
     padding-top: 2vh;
 }
 
@@ -218,14 +219,14 @@
 .noticias-texto-1{
     width: 60vw;
     font-size: 3vh;
-    font-family: 'Kanit', sans-serif;
+    font-family: $fontKanit;
     color: $colorTexto;
     
 }
 .noticias-texto-1 a{
     text-decoration: none;
     color: $colorPrincipal;
-    font-family: 'Kanit', sans-serif;
+    font-family: $fontKanit;
 }
 
 .noticias-items-2{
@@ -242,13 +243,13 @@
 .noticias-texto-2{
     width: 60vw;
     font-size: 3vh;
-    font-family: 'Kanit', sans-serif;
+    font-family: $fontKanit;
     color: $colorTexto;
 }
 .noticias-texto-2 a{
     text-decoration: none;
     color: $colorPrincipal;
-    font-family: 'Kanit', sans-serif;
+    font-family: $fontKanit;
 }
 
 .noticias-items-3{
@@ -266,12 +267,12 @@
 .noticias-texto-3{
     width: 60vw;
     font-size: 20px;
-    font-family: 'Kanit', sans-serif;
+    font-family: $fontKanit;
     color: $colorTexto;
 }
 .noticias-texto-3 a{
     text-decoration: none;
     color: $colorPrincipal;
-    font-family: 'Kanit', sans-serif;
+    font-family: $fontKanit;
 }
 }

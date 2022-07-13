@@ -80,15 +80,6 @@
     font-family: "Bebas Neue", cursive;
   }
 }
-/* .ultimas-noticias{
-    padding-top: 7%;
-    padding-left: 6%;
-    display: grid;
-    grid-template-areas:
-    '.noticia-1-imagen .noticia-2-imagen .noticia-3-imagen'
-    '.noticia-1-texto  .noticia-2-texto  .noticia-3-texto';
-    justify-content: space-evenly;
-} */
 .noticia-1-imagen {
   width: 40vw;
 }
@@ -302,7 +293,7 @@
   .cabecera__lista a{
       text-decoration: none;
       color: $colorTexto;
-      font-family: 'Bebas Neue', cursive;
+      font-family: $fontBebas;
   }
 
 
@@ -881,9 +872,7 @@
 .contacto-texto {
   font-size: 30px;
   padding-top: 3%;
-  padding-left: 3%;
   font-family: "Bebas Neue", cursive;
-  align-items: center;
   color: aliceblue;
 }
 
@@ -939,17 +928,7 @@
   color: aliceblue;
 }
 
-.main-contacto-2 a {
-  text-decoration: none;
-  font-size: 20px;
-  color: rgba(141, 141, 141, 0.418);
-  font-family: "Nunito", sans-serif;
-  text-decoration: none;
-  border: 1px rgba(255, 255, 255, 0.24) solid;
-  padding: 4px 4px;
-}
-
-@media only screen and (min-width: 481px) and (max-width: 525px) {
+@media only screen and (min-width: 360px) and (max-width: 525px) {
   /* ESTILOS PARA CONTACTO MOBILE*/
   .titulo-contacto {
     display: flex;
@@ -1019,15 +998,6 @@
     font-family: "Bebas Neue", cursive;
     color: aliceblue;
   }
-  .main-contacto-2 a {
-    text-decoration: none;
-    font-size: 20px;
-    color: rgba(141, 141, 141, 0.418);
-    font-family: "Nunito", sans-serif;
-    text-decoration: none;
-    border: 1px rgba(255, 255, 255, 0.24) solid;
-    padding: 4px 4px;
-  }
 }
 /* ESTILOS PARA INSCRIPCION */
 .titulo-inscripcion {
@@ -1071,21 +1041,6 @@
   flex-flow: column wrap;
 }
 
-/* .metodo{
-    font-size:  3vh;
-    padding-top: 3%;
-    padding-left: 3%;
-    font-family: 'Bebas Neue', cursive;
-    color: $colorTexto;
-
-} */
-/* .importe{
-    font-size:  3vh;
-    padding-top: 3%;
-    padding-left: 3%;
-    font-family: 'Bebas Neue', cursive;
-    color: $colorTexto;
-} */
 .btn {
   background-color: rgba(172, 255, 47, 0.842) !important;
 }
@@ -1094,17 +1049,7 @@
   color: aliceblue !important;
 }
 
-.main-inscripcion-2 a {
-  text-decoration: none;
-  font-size: 20px;
-  color: rgba(141, 141, 141, 0.418);
-  font-family: "Nunito", sans-serif;
-  text-decoration: none;
-  border: 1px rgba(255, 255, 255, 0.24) solid;
-  padding: 4px 4px;
-}
-
-@media only screen and (min-width: 481px) and (max-width: 525px) {
+@media only screen and (min-width: 360px) and (max-width: 525px) {
   /* ESTILOS PARA INSCRIPCION MOBILE*/
   .titulo-inscripcion {
     display: flex;
@@ -1156,15 +1101,6 @@
     padding-left: 3%;
     font-family: "Bebas Neue", cursive;
     color: aliceblue;
-  }
-  .main-inscripcion-2 a {
-    text-decoration: none;
-    font-size: 2vh;
-    color: rgba(141, 141, 141, 0.418);
-    font-family: "Nunito", sans-serif;
-    text-decoration: none;
-    border: 1px rgba(255, 255, 255, 0.24) solid;
-    padding: 4px 4px;
   }
 }
 * {

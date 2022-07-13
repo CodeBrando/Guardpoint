@@ -1,4 +1,5 @@
 @import '../base/colors';
+@import '../base/fonts';
 
 
 /* ESTILO PARA EL INDEX*/
@@ -16,7 +17,7 @@
 .nav-link{
     text-decoration: none;
     color: $colorTexto !important;
-    font-family: 'Bebas Neue', cursive;
+    font-family: $fontBebas;
     display: inline !important;
 }
 
@@ -40,7 +41,7 @@
     font-size: 3vh;
     // padding-top: 11%;
     padding-left: 4% ;
-    font-family: 'Bebas Neue', cursive;
+    font-family: $fontBebas;
     color: $colorTexto;
 }
 
@@ -54,7 +55,7 @@
 .titulo-pagina{
     height: 15vh;
     font-size: 10vh;
-    font-family: 'Bebas Neue', cursive;
+    font-family: $fontBebas;
     padding-top: 2vh;
 }
     
@@ -69,7 +70,7 @@
 .titulo-pagina-2{
     height: 15vh;
     font-size: 10vh;
-    font-family: 'Bebas Neue', cursive;
+    font-family: $fontBebas;
     padding-top: 1.5vh;
     align-items: center;
 }
@@ -85,24 +86,9 @@
     .titulo-pagina-2{
         height: 15vh;
         font-size: 9vh;
-        font-family: 'Bebas Neue', cursive;
+        font-family: $fontBebas;
     }
 }
-
-
-
-
-
-/* .ultimas-noticias{
-    padding-top: 7%;
-    padding-left: 6%;
-    display: grid;
-    grid-template-areas:
-    '.noticia-1-imagen .noticia-2-imagen .noticia-3-imagen'
-    '.noticia-1-texto  .noticia-2-texto  .noticia-3-texto';
-    justify-content: space-evenly;
-} */
-
 
 .noticia-1-imagen{
     width: 40vw; 
@@ -110,7 +96,7 @@
 
 .noticia-1-texto{
     font-size: 2vh;
-    font-family: 'Kanit', sans-serif;
+    font-family: $fontKanit;
     color: $colorTexto;
     width: 100%;
 
@@ -119,7 +105,7 @@
 .noticia-1-texto a{
     text-decoration: none;
     color: $colorPrincipal;
-    font-family: 'Kanit', sans-serif;
+    font-family: $fontKanit;
 }
 
 .noticia-2-imagen{
@@ -129,14 +115,14 @@
 .noticia-2-texto{
     width: 100%;
     font-size: 2vh;
-    font-family: 'Kanit', sans-serif;
+    font-family: $fontKanit;
     color: $colorTexto;
 }
 
 .noticia-2-texto a{
     text-decoration: none;
     color: $colorPrincipal;
-    font-family: 'Kanit', sans-serif;
+    font-family: $fontKanit;
 }
 
 
@@ -147,14 +133,14 @@
 .noticia-3-texto{
     width: 100%;
     font-size: 2vh;
-    font-family: 'Kanit', sans-serif;
+    font-family: $fontKanit;
     color: $colorTexto;
 }
 
 .noticia-3-texto a{
     text-decoration: none;
     color: $colorPrincipal;
-    font-family: 'Kanit', sans-serif;
+    font-family: $fontKanit;
 }
 
 .mas-noticias{
@@ -166,7 +152,7 @@
 .mas-noticias-link{
     text-decoration: none;
     color: $colorPrincipal;
-    font-family: 'Bebas Neue', cursive;
+    font-family: $fontBebas;
     border: 2px white solid;
     padding: 4px 4px;
 }
@@ -181,7 +167,7 @@
 .titulo-pagina-3{
     height: 15vh;
     font-size: 10vh;
-    font-family: 'Bebas Neue', cursive;
+    font-family: $fontBebas;
     padding-top: 1.5vh;
     align-items: center;
 }
@@ -197,7 +183,7 @@
     .titulo-pagina-3{
         height: 15vh;
         font-size: 9vh;
-        font-family: 'Bebas Neue', cursive;
+        font-family: $fontBebas;
     }
 }
 
@@ -219,13 +205,13 @@
     font-size:  30px;
     padding-top: 11%;
     padding-left: 3%;
-    font-family: 'Bebas Neue', cursive;
+    font-family: $fontBebas;
     color: $colorTexto;
 }
 .proximo-evento-texto a{
     text-decoration: none;
     color: $colorPrincipal;
-    font-family: 'Bebas Neue', cursive;
+    font-family: $fontBebas;
 }
 .proximo-evento-imagen a{
     color: $colorPrincipal;
@@ -240,7 +226,7 @@
 .mas-info-link{
     text-decoration: none;
     color: $colorPrincipal;
-    font-family: 'Bebas Neue', cursive;
+    font-family: $fontBebas;
     border: 2px white solid;
     padding: 4px 4px;
 }
@@ -261,7 +247,7 @@
 .twitter-link{
     text-decoration: none;
     color: rgb(41, 34, 34);
-    font-family: 'Bebas Neue', cursive;
+    font-family: $fontBebas;
 }
 .instagram-icon{
     width: 3vw
@@ -269,7 +255,7 @@
 .instagram-link{
     text-decoration: none;
     color: rgb(41, 34, 34);
-    font-family: 'Bebas Neue', cursive;
+    font-family: $fontBebas;
 }
 
 .footer-logo-container{
@@ -287,7 +273,7 @@
 
 
 .datos-contacto{
-    font-family: 'Kanit', sans-serif;
+    font-family: $fontKanit;
     height: 100%;
 }
 
@@ -323,7 +309,7 @@
     .cabecera__lista a{
         text-decoration: none;
         color: $colorTexto;
-        font-family: 'Bebas Neue', cursive;
+        font-family: $fontBebas;
     }
     
     
@@ -353,7 +339,7 @@
         font-size:  20px;
         // padding-top: 11%;
         padding-right: 5%;
-        font-family: 'Bebas Neue', cursive;
+        font-family: $fontBebas;
         color: $colorTexto;
     }
     
@@ -367,7 +353,7 @@
     .titulo-pagina{
         height: 15vh;
         font-size: 10vh;
-        font-family: 'Bebas Neue', cursive;
+        font-family: $fontBebas;
         padding-top: 2vh;
     }
 
@@ -384,7 +370,7 @@
     
     .titulo-pagina-2{
         font-size: 6.5vh;
-        font-family: 'Bebas Neue', cursive;
+        font-family: $fontBebas;
         align-items: center;
     }
     
@@ -406,7 +392,7 @@
     .noticia-1-texto{
         width: 100%;
         font-size: 3vh;
-        font-family: 'Kanit', sans-serif;
+        font-family: $fontKanit;
         color: $colorTexto;
         text-align: center;
     }
@@ -414,7 +400,7 @@
     .noticia-1-texto a{
         text-decoration: none;
         color: $colorPrincipal;
-        font-family: 'Kanit', sans-serif;
+        font-family: $fontKanit;
     }
 
     .noticia-2-imagen{
@@ -424,14 +410,14 @@
     .noticia-2-texto{
         width: 100%;
         font-size: 3vh;
-        font-family: 'Kanit', sans-serif;
+        font-family: $fontKanit;
         color: $colorTexto;
         text-align: center;
     }
     .noticia-2-texto a{
         text-decoration: none;
         color: $colorPrincipal;
-        font-family: 'Kanit', sans-serif;
+        font-family: $fontKanit;
     }
     
     .noticia-3-imagen{
@@ -441,7 +427,7 @@
     .noticia-3-texto{
         width: 100%;
         font-size: 3vh;
-        font-family: 'Kanit', sans-serif;
+        font-family: $fontKanit;
         color: $colorTexto;
         text-align: center;
     }
@@ -449,7 +435,7 @@
     .noticia-3-texto a{
         text-decoration: none;
         color: $colorPrincipal;
-        font-family: 'Kanit', sans-serif;
+        font-family: $fontKanit;
     }
     
     .mas-noticias{
@@ -461,7 +447,7 @@
     .mas-noticias-link{
         text-decoration: none;
         color: $colorPrincipal;
-        font-family: 'Bebas Neue', cursive;
+        font-family: $fontBebas;
         border: 2px white solid;
         padding: 4px 4px;
     }
@@ -478,7 +464,7 @@
     
     .titulo-pagina-3{
         font-size: 6.5vh;
-        font-family: 'Bebas Neue', cursive;
+        font-family: $fontBebas;
         align-items: center;
     }
     
@@ -501,13 +487,13 @@
         font-size:  30px;
         padding-top: 11%;
         
-        font-family: 'Bebas Neue', cursive;
+        font-family: $fontBebas;
         color: $colorTexto;
     }
     .proximo-evento-texto a{
         text-decoration: none;
         color: $colorPrincipal;
-        font-family: 'Bebas Neue', cursive;
+        font-family: $fontBebas;
     }
     .proximo-evento-imagen a{
         color: $colorPrincipal;
@@ -521,7 +507,7 @@
     .mas-info-link{
         text-decoration: none;
         color: $colorPrincipal;
-        font-family: 'Bebas Neue', cursive;
+        font-family: $fontBebas;
         border: 2px white solid;
         padding: 4px 4px;
     }
@@ -541,7 +527,7 @@
     .twitter-link{
         text-decoration: none;
         color: rgb(41, 34, 34);
-        font-family: 'Bebas Neue', cursive;
+        font-family: $fontBebas;
     }
     .instagram-icon{
         width: 10px
@@ -549,13 +535,13 @@
     .instagram-link{
         text-decoration: none;
         color: rgb(41, 34, 34);
-        font-family: 'Bebas Neue', cursive;
+        font-family: $fontBebas;
     }
     .footer-logo{
         width: 40px
     }
     .datos-contacto{
-        font-family: 'Kanit', sans-serif;
+        font-family: $fontKanit;
         font-size: 10px;
     }
 }

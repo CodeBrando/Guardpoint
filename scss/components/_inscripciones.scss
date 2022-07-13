@@ -1,4 +1,5 @@
 @import '../base/colors';
+@import '../base/fonts';
 
 /* ESTILOS PARA INSCRIPCION */
 .titulo-inscripcion{
@@ -12,7 +13,7 @@
 .titulo-pagina-inscripcion{
     height: 15vh;
     font-size: 10vh;
-    font-family: 'Bebas Neue', cursive;
+    font-family: $fontBebas;
     padding-top: 2vh;
 }
 
@@ -28,7 +29,7 @@
     font-size:  3vh;
     padding-top: 3%;
     padding-left: 3%;
-    font-family: 'Bebas Neue', cursive;
+    font-family: $fontBebas;
     
     color: $colorTexto;
     
@@ -43,21 +44,7 @@
     margin-left: 12%;
     flex-flow: column wrap;
 }
-/* .metodo{
-    font-size:  3vh;
-    padding-top: 3%;
-    padding-left: 3%;
-    font-family: 'Bebas Neue', cursive;
-    color: $colorTexto;
 
-} */
-/* .importe{
-    font-size:  3vh;
-    padding-top: 3%;
-    padding-left: 3%;
-    font-family: 'Bebas Neue', cursive;
-    color: $colorTexto;
-} */
 
 .btn{
     background-color: $colorPrincipal !important;
@@ -67,84 +54,66 @@
     color: $colorTexto !important;
 }
 
-.main-inscripcion-2 a{
-    text-decoration: none;
-    font-size: 20px;
-    color: rgba(141, 141, 141, 0.418);
-    font-family: 'Nunito', sans-serif;
-    text-decoration: none;
-    border: 1px rgba(255, 255, 255, 0.24) solid;
-    padding: 4px 4px;
-}
-
-@media only screen and (min-width:481px) and (max-width: 525px) {
+@media only screen and (min-width:360px) and (max-width: 525px) {
     /* ESTILOS PARA INSCRIPCION MOBILE*/
-.titulo-inscripcion{
-    display: flex;
-    justify-content: center;
-    padding-top: 2vh;
-    background-color: $colorPrincipal;
-    margin-top: 20px;
-}
+    .titulo-inscripcion{
+        display: flex;
+        justify-content: center;
+        padding-top: 2vh;
+        background-color: $colorPrincipal;
+        margin-top: 20px;
+    }
 
 
-.titulo-pagina-inscripcion{
-    height: 15vh;
-    font-size: 8vh;
-    font-family: 'Bebas Neue', cursive;
-    padding-top: 2vh;
-}
+    .titulo-pagina-inscripcion{
+        height: 15vh;
+        font-size: 8vh;
+        font-family: $fontBebas;
+        padding-top: 2vh;
+    }
 
-.main-inscripcion{
-    display: flex;
-    justify-content: flex-start;
-    margin-top: 10vh;
-    margin-bottom: 5vh;
-    margin-left: 12%;
-    margin-right: 12%;
-}
-.inscripcion-texto{
-    font-size:  3vh;
-    padding-top: 3%;
-    padding-left: 3%;
-    font-family: 'Bebas Neue', cursive;
+    .main-inscripcion{
+        display: flex;
+        justify-content: flex-start;
+        margin-top: 10vh;
+        margin-bottom: 5vh;
+        margin-left: 12%;
+        margin-right: 12%;
+    }
+    .inscripcion-texto{
+        font-size:  3vh;
+        padding-top: 3%;
+        padding-left: 3%;
+        font-family: $fontBebas;
+        
+        color: $colorTexto;
+        
+    }
+
+    .main-inscripcion-2{
+        display: flex;
+        height: 40vh;
+        align-items: flex-start;
+        margin-top: 10vh;
+        margin-bottom: 55vh;
+        margin-left: 12%;
+        flex-flow: column wrap;
+    }
+    .metodo{
+        font-size:  3vh;
+        padding-top: 3%;
+        padding-left: 3%;
+        font-family: $fontBebas;
+        color: $colorTexto;
+
+    }
+    .importe{
+        font-size:  3vh;
+        padding-top: 3%;
+        padding-left: 3%;
+        font-family: $fontBebas;
+        color: $colorTexto;
+    }
+
     
-    color: $colorTexto;
-    
-}
-
-.main-inscripcion-2{
-    display: flex;
-    height: 40vh;
-    align-items: flex-start;
-    margin-top: 10vh;
-    margin-bottom: 55vh;
-    margin-left: 12%;
-    flex-flow: column wrap;
-}
-.metodo{
-    font-size:  3vh;
-    padding-top: 3%;
-    padding-left: 3%;
-    font-family: 'Bebas Neue', cursive;
-    color: $colorTexto;
-
-}
-.importe{
-    font-size:  3vh;
-    padding-top: 3%;
-    padding-left: 3%;
-    font-family: 'Bebas Neue', cursive;
-    color: $colorTexto;
-}
-
-.main-inscripcion-2 a{
-    text-decoration: none;
-    font-size: 2vh;
-    color: rgba(141, 141, 141, 0.418);
-    font-family: 'Nunito', sans-serif;
-    text-decoration: none;
-    border: 1px rgba(255, 255, 255, 0.24) solid;
-    padding: 4px 4px;
-}
 }
