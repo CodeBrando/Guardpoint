@@ -1,5 +1,6 @@
 @import '../base/colors';
 @import '../base/fonts';
+@import '../base/extends';
 
 
 /* ESTILO PARA EL INDEX*/
@@ -150,12 +151,9 @@
     font-size: 25px;
 }
 .mas-noticias-link{
-    text-decoration: none;
-    color: $colorPrincipal;
-    font-family: $fontBebas;
-    border: 2px white solid;
-    padding: 4px 4px;
+    @extend %botonLink
 }
+
 .titulo-3{
     display: flex;
     justify-content: center;
@@ -224,11 +222,7 @@
     
 }
 .mas-info-link{
-    text-decoration: none;
-    color: $colorPrincipal;
-    font-family: $fontBebas;
-    border: 2px white solid;
-    padding: 4px 4px;
+    @extend %botonLink;
 }
 
 .footer-container{

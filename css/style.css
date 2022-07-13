@@ -1,6 +1,14 @@
-/* ESTILO PARA EL INDEX*/
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kanit&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kanit&family=Nunito:ital,wght@1,200&display=swap");
+.mas-info-link, .mas-noticias-link {
+  text-decoration: none;
+  color: rgba(172, 255, 47, 0.842);
+  font-family: "Bebas Neue", cursive;
+  border: 2px white solid;
+  padding: 4px 4px;
+}
+
+/* ESTILO PARA EL INDEX*/
 .banner-imagen {
   width: 100%;
 }
@@ -138,14 +146,6 @@
   font-size: 25px;
 }
 
-.mas-noticias-link {
-  text-decoration: none;
-  color: rgba(172, 255, 47, 0.842);
-  font-family: "Bebas Neue", cursive;
-  border: 2px white solid;
-  padding: 4px 4px;
-}
-
 .titulo-3 {
   display: flex;
   justify-content: center;
@@ -211,14 +211,6 @@
   justify-content: center;
   text-align: center;
   font-size: 25px;
-}
-
-.mas-info-link {
-  text-decoration: none;
-  color: rgba(172, 255, 47, 0.842);
-  font-family: "Bebas Neue", cursive;
-  border: 2px white solid;
-  padding: 4px 4px;
 }
 
 .footer-container {
@@ -1115,6 +1107,14 @@ a {
 
 body {
   background-color: rgb(41, 34, 34) !important;
+}
+
+.mas-noticias-link, .mas-info-link {
+  text-decoration: none;
+  color: rgba(172, 255, 47, 0.842);
+  font-family: "Bebas Neue", cursive;
+  border: 2px white solid;
+  padding: 4px 4px;
 }
 
 /*# sourceMappingURL=style.css.map */
