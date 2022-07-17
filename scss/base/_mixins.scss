@@ -6,20 +6,22 @@
 
 
 
-.footer-logo:hover{
-    @include latido(rotate(360deg) scale(1.5));
+.footer-logo2:hover{
+    @include latido(scale(1.5));
+    opacity: 0;
 }
 
-.footer-logo:hover{
+.footer-logo2:hover{
     @include latido(all 1s);
 }
 
 
-.navbar-brand:hover{
-    @include latido(rotate(360deg) scale(1.5));
+.navbar-brand2:hover{
+    @include latido(scale(1.5));
+    opacity: 0;
 }
 
-.navbar-brand:hover{
+.navbar-brand2:hover{
     @include latido(all 1s);
 }
 

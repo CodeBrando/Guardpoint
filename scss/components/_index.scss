@@ -23,6 +23,10 @@
     display: inline !important;
 }
 
+.navbar-brand, .navbar-brand2{
+    position: absolute;
+}
+
 
 
 .presentacion{
@@ -253,12 +257,22 @@
     font-family: $fontBebas;
 }
 
-.footer-logo-container{
-    
-    margin-left: 5vw;
+.footer-logo-container, .footer-logo-container2{
+    position: absolute;
+    margin-left: 45vw;
 }
-.footer-logo{
-    width: 5vw;
+.footer-logo, .footer-logo2{
+    width: 5vw;  
+}
+.footer-logo2{
+    transition: all 0,8s;
+}
+
+.footer-logo-2:hover{
+    transform: scale(2);
+    
+    background-image: transparent;
+    
 }
 
 // .footer-logo:hover{
@@ -352,13 +366,11 @@
         flex-direction: column;
         padding-left: 16%;
         padding-top: 7%;
-        align-items: center;
-       
+        align-items: center; 
     }
     
     .noticia-1-imagen{
-        width: 80%;
-        
+        width: 80%;  
     }
 
     .noticia-1-texto{
@@ -512,6 +524,7 @@
     .footer-logo{
         width: 40px
     }
+    
     .datos-contacto{
         font-family: $fontKanit;
         font-size: 10px;

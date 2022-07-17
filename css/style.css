@@ -1,7 +1,7 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kanit&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kanit&family=Nunito:ital,wght@1,200&display=swap");
-.mas-info-link, .mas-noticias-link {
+.inscribite-link, .mas-info-link, .mas-noticias-link {
   text-decoration: none;
   color: rgba(172, 255, 47, 0.842);
   font-family: "Bebas Neue", cursive;
@@ -9,25 +9,27 @@
   padding: 4px 4px;
 }
 
-.footer-logo:hover {
+.footer-logo2:hover {
   /* animación placeholder*/
-  transform: rotate(360deg) scale(1.5);
-  transition: rotate(360deg) scale(1.5);
+  transform: scale(1.5);
+  transition: scale(1.5);
+  opacity: 0;
 }
 
-.footer-logo:hover {
+.footer-logo2:hover {
   /* animación placeholder*/
   transform: all 1s;
   transition: all 1s;
 }
 
-.navbar-brand:hover {
+.navbar-brand2:hover {
   /* animación placeholder*/
-  transform: rotate(360deg) scale(1.5);
-  transition: rotate(360deg) scale(1.5);
+  transform: scale(1.5);
+  transition: scale(1.5);
+  opacity: 0;
 }
 
-.navbar-brand:hover {
+.navbar-brand2:hover {
   /* animación placeholder*/
   transform: all 1s;
   transition: all 1s;
@@ -49,6 +51,10 @@
   color: aliceblue !important;
   font-family: "Bebas Neue", cursive;
   display: inline !important;
+}
+
+.navbar-brand, .navbar-brand2 {
+  position: absolute;
 }
 
 .presentacion {
@@ -266,12 +272,22 @@
   font-family: "Bebas Neue", cursive;
 }
 
-.footer-logo-container {
-  margin-left: 5vw;
+.footer-logo-container, .footer-logo-container2 {
+  position: absolute;
+  margin-left: 45vw;
 }
 
-.footer-logo {
+.footer-logo, .footer-logo2 {
   width: 5vw;
+}
+
+.footer-logo2 {
+  transition: all 0, 8s;
+}
+
+.footer-logo-2:hover {
+  transform: scale(2);
+  background-image: transparent;
 }
 
 .datos-contacto {
@@ -486,6 +502,14 @@
     font-size: 10px;
   }
 }
+.inscribite-link, .mas-noticias-link, .mas-info-link {
+  text-decoration: none;
+  color: rgba(172, 255, 47, 0.842);
+  font-family: "Bebas Neue", cursive;
+  border: 2px white solid;
+  padding: 4px 4px;
+}
+
 /* ESTILO PARA NOTICIAS */
 .titulo-noticias {
   display: flex;
@@ -774,15 +798,6 @@
   margin: 10vh 0vh 10vh 0vh;
   justify-content: center;
   font-size: 25px;
-}
-
-.inscribite-link {
-  text-decoration: none;
-  color: rgba(172, 255, 47, 0.842);
-  font-family: "Bebas Neue", cursive;
-  text-decoration: none;
-  border: 2px white solid;
-  padding: 4px 4px;
 }
 
 @media only screen and (min-width: 481px) and (max-width: 525px) {
@@ -1105,7 +1120,7 @@ body {
   background-color: rgb(41, 34, 34) !important;
 }
 
-.mas-noticias-link, .mas-info-link {
+.mas-noticias-link, .mas-info-link, .inscribite-link {
   text-decoration: none;
   color: rgba(172, 255, 47, 0.842);
   font-family: "Bebas Neue", cursive;
@@ -1113,25 +1128,27 @@ body {
   padding: 4px 4px;
 }
 
-.footer-logo:hover {
+.footer-logo2:hover {
   /* animación placeholder*/
-  transform: rotate(360deg) scale(1.5);
-  transition: rotate(360deg) scale(1.5);
+  transform: scale(1.5);
+  transition: scale(1.5);
+  opacity: 0;
 }
 
-.footer-logo:hover {
+.footer-logo2:hover {
   /* animación placeholder*/
   transform: all 1s;
   transition: all 1s;
 }
 
-.navbar-brand:hover {
+.navbar-brand2:hover {
   /* animación placeholder*/
-  transform: rotate(360deg) scale(1.5);
-  transition: rotate(360deg) scale(1.5);
+  transform: scale(1.5);
+  transition: scale(1.5);
+  opacity: 0;
 }
 
-.navbar-brand:hover {
+.navbar-brand2:hover {
   /* animación placeholder*/
   transform: all 1s;
   transition: all 1s;

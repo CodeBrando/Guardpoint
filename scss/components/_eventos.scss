@@ -43,12 +43,7 @@
     font-size: 25px;
 }
 .inscribite-link{
-    text-decoration: none;
-    color: $colorPrincipal;
-    font-family: $fontBebas;
-    text-decoration: none;
-    border: 2px white solid;
-    padding: 4px 4px;
+    @extend %botonLink
 }
 
 @media only screen and (min-width:481px) and (max-width: 525px) {
