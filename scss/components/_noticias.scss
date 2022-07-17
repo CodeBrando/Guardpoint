@@ -143,7 +143,7 @@
     font-family: $fontKanit;
 }
 
-@media only screen and (min-width:481px) and (max-width: 525px) {
+@media only screen and (min-width:320px) and (max-width: 480px) {
     /* ESTILO PARA NOTICIAS MOBILE*/
 
 .titulo-noticias{
@@ -162,7 +162,6 @@
 }
 
 .grid-container{
-    
     height: 50%;
     margin-top: 20px;
     margin-left: 5%;
@@ -195,9 +194,12 @@
     height: 100%;
 }
 
+.grid-items{
+    height: 100% !important;
+}
+
 .noticias-container{
     display: column;
-    
     margin-top: 100px;
     margin-left: 5%;
     margin-right: 5%;

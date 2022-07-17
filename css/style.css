@@ -298,7 +298,7 @@
 }
 
 /* ESTILO PARA LA MOBILE VIEW  */
-@media only screen and (min-width: 360px) and (max-width: 480px) {
+@media only screen and (min-width: 320px) and (max-width: 480px) {
   body {
     background-color: rgb(41, 34, 34);
   }
@@ -514,8 +514,9 @@
     margin-right: 65%;
   }
   .datos-contacto {
+    height: -1vh !important;
     font-family: "Kanit", sans-serif;
-    font-size: 10px;
+    font-size: 1vh;
   }
 }
 .inscribite-link, .mas-noticias-link, .mas-info-link {
@@ -663,7 +664,7 @@
   font-family: "Kanit", sans-serif;
 }
 
-@media only screen and (min-width: 481px) and (max-width: 525px) {
+@media only screen and (min-width: 320px) and (max-width: 480px) {
   /* ESTILO PARA NOTICIAS MOBILE*/
   .titulo-noticias {
     display: flex;
@@ -702,6 +703,9 @@
   .grid-3-imagen {
     width: 100%;
     height: 100%;
+  }
+  .grid-items {
+    height: 100% !important;
   }
   .noticias-container {
     display: column;
@@ -948,7 +952,7 @@
   color: aliceblue;
 }
 
-@media only screen and (min-width: 360px) and (max-width: 525px) {
+@media only screen and (min-width: 320px) and (max-width: 525px) {
   /* ESTILOS PARA CONTACTO MOBILE*/
   .titulo-contacto {
     display: flex;
@@ -1069,7 +1073,7 @@
   color: aliceblue !important;
 }
 
-@media only screen and (min-width: 360px) and (max-width: 525px) {
+@media only screen and (min-width: 320px) and (max-width: 525px) {
   /* ESTILOS PARA INSCRIPCION MOBILE*/
   .titulo-inscripcion {
     display: flex;
