@@ -27,6 +27,19 @@
     position: absolute;
 }
 
+@media only screen and (max-width: 991px){
+    .navbar-brand{
+        display: block;
+        margin-left: 45%;
+        margin-right: 55%;
+
+    }
+
+    .navbar-brand2{
+        display: none;
+    }
+
+}
 
 
 .presentacion{
@@ -105,7 +118,7 @@
     font-family: $fontKanit;
     color: $colorTexto;
     width: 100%;
-
+    
 }
 
 .noticia-1-texto a{
@@ -207,7 +220,6 @@
     text-align: center;
     font-size:  30px;
     padding-top: 11%;
-    padding-left: 3%;
     font-family: $fontBebas;
     color: $colorTexto;
 }
@@ -263,23 +275,9 @@
 }
 .footer-logo, .footer-logo2{
     width: 5vw;  
+    margin-left: 50%;
+    margin-right: 50%;
 }
-.footer-logo2{
-    transition: all 0,8s;
-}
-
-.footer-logo-2:hover{
-    transform: scale(2);
-    
-    background-image: transparent;
-    
-}
-
-// .footer-logo:hover{
-//     /* animación placeholder*/
-//     transform: rotate(360deg) scale(1.5);
-//     transition: all 1s;
-// }
 
 
 .datos-contacto{
@@ -293,8 +291,21 @@
     body{
         background-color: rgb(41, 34, 34);
     }
+
+    
     
     /* ESTILO PARA EL INDEX MOBILE  */
+
+    .navbar-brand{
+        display: block;
+        margin-left: 45%;
+        margin-right: 55%;
+
+    }
+
+    .navbar-brand2{
+        display: none;
+    }
     
     .banner-imagen{
         width: 100%;
@@ -521,9 +532,18 @@
         color: rgb(41, 34, 34);
         font-family: $fontBebas;
     }
+
     .footer-logo{
-        width: 40px
+        display: none;
     }
+
+    .footer-logo2{
+        width: 6vw;
+        display: block;
+        margin-left: 35%;
+        margin-right: 65%;
+    }
+
     
     .datos-contacto{
         font-family: $fontKanit;

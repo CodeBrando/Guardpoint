@@ -57,6 +57,16 @@
   position: absolute;
 }
 
+@media only screen and (max-width: 991px) {
+  .navbar-brand {
+    display: block;
+    margin-left: 45%;
+    margin-right: 55%;
+  }
+  .navbar-brand2 {
+    display: none;
+  }
+}
 .presentacion {
   margin-left: 10%;
   margin-right: 10%;
@@ -222,7 +232,6 @@
   text-align: center;
   font-size: 30px;
   padding-top: 11%;
-  padding-left: 3%;
   font-family: "Bebas Neue", cursive;
   color: aliceblue;
 }
@@ -279,15 +288,8 @@
 
 .footer-logo, .footer-logo2 {
   width: 5vw;
-}
-
-.footer-logo2 {
-  transition: all 0, 8s;
-}
-
-.footer-logo-2:hover {
-  transform: scale(2);
-  background-image: transparent;
+  margin-left: 50%;
+  margin-right: 50%;
 }
 
 .datos-contacto {
@@ -301,6 +303,14 @@
     background-color: rgb(41, 34, 34);
   }
   /* ESTILO PARA EL INDEX MOBILE  */
+  .navbar-brand {
+    display: block;
+    margin-left: 45%;
+    margin-right: 55%;
+  }
+  .navbar-brand2 {
+    display: none;
+  }
   .banner-imagen {
     width: 100%;
   }
@@ -495,7 +505,13 @@
     font-family: "Bebas Neue", cursive;
   }
   .footer-logo {
-    width: 40px;
+    display: none;
+  }
+  .footer-logo2 {
+    width: 6vw;
+    display: block;
+    margin-left: 35%;
+    margin-right: 65%;
   }
   .datos-contacto {
     font-family: "Kanit", sans-serif;
@@ -885,6 +901,7 @@
   align-items: flex-start;
   margin-top: 100px;
   margin-bottom: 50px;
+  margin-left: 5%;
 }
 
 .contacto-texto-2 {
